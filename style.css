@@ -3,6 +3,7 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+/* Header  */
 header {
   width: 100%;
   height: 50.5;
@@ -24,7 +25,6 @@ header {
 
 .nav-ul {
   display: flex;
-  justify-content: space-between;
   margin: 0 auto;
 }
 
@@ -36,16 +36,19 @@ header {
 }
 
 .Logo {
+  margin-left: 50px;
   width: 80px;
   height: 70px;
 }
 
+/* 1 section */
 .First-section {
   margin: 0 auto;
   width: 100%;
   height: 100vh;
   background-size: cover;
   background-image: url("images/Cover\ 8\ older.jpg");
+ 
 }
 
 .Slogan-box {
