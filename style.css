@@ -1,14 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300;1,900&display=swap");
-body {
-  font-family: "Lato", sans-serif;
-}
+
 
 /* Header  */
 header {
   width: 100%;
   align-items: center;
   position: fixed;
-  /* display: flex; */
+  display: flex;
   background-color: rgba(0, 0, 0, 0.178);
 }
 
@@ -74,6 +71,7 @@ header {
   background-size: cover;
   background-position: center;
   background-image: url("images/Cover\ 8\ older.jpg");
+  z-index: 1;
 }
 
 .Slogan-box {
@@ -107,27 +105,81 @@ header {
 }
 
 /* second section  */
-/*  */
-.Second-section {
+ .Second-section {
+  height: 100vh;
+  margin: 0 auto;
+  text-align:initial;
+  margin-top: 50px;
+}
+
+.Second-section h2 {
+  font-size:50px;
+  margin-left: 25px;
+  font-style: italic;
+}
+
+.Second-section h2::after {
+  content: "";
+  width: 500px;
+  height: 2px;
+  background-color: #1f97e7;
+  display: block;
+  margin-top: 5px;
+}
+
+.second-sec-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.wwa-box {
+ max-width:600px;
+ width: 100%;
+ padding: 15px;
+ margin: 10px;
+}
+
+.wwa-box h5 {
+  font-size: 30px;
+  margin: 10px;
+}
+
+.wwa-box p {
+  font-size: 18px;
+}
+
+.wwa-image {
+  width: 400px;
+  height: 300px;
+}
+
+
+
+
+
+
+
+/* third section */
+
+/* .third-section {
   height: 100vh;
   margin: 0 auto;
   text-align: center;
   margin-top: 50px;
 }
 
-.Second-section h2 {
-  font-size: 60px;
+.third-section h2 {
+  font-size:50px;
 }
 
 .flex-container {
   display: flex;
-  justify-content: space-between;
-  padding: 35px;
+  justify-content:space-around;
+  padding:30px;
 }
 
 .box {
-  /* max-width: 500px; */
   width: 300px;
   height: 300px;
   background-color: blue;
-}
+} */
