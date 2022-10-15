@@ -6,39 +6,64 @@ body {
 /* Header  */
 header {
   width: 100%;
-  height: 50.5;
-  /* margin: 0 auto; */
-  padding: 10px 50px;
   align-items: center;
   position: fixed;
-  z-index: 1;
-  display: flex;
-  justify-content: space-between;
+  /* display: flex; */
+  background-color: rgba(0, 0, 0, 0.178);
 }
 
 .navigation {
-  padding: 15px;
+  padding: 25px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   width: 100%;
 }
 
-.nav-ul {
+.Navigation-ul {
   display: flex;
+  justify-content: space-between;
   margin: 0 auto;
 }
 
 .nav-list {
   color: white;
   font-style: normal;
-  margin-left: 50px;
+  margin-left: 30px;
   font-size: 18px;
+}
+.nav-list:hover {
+  text-shadow: 0 0 3px #c9c1bf, 0 0 5px white;
 }
 
 .Logo {
-  margin-left: 50px;
   width: 80px;
   height: 70px;
+}
+
+/* dropdown */
+.Navigation-ul ul {
+  position: absolute;
+}
+
+.dropdown_menu {
+  margin-left: 30px;
+  display: none;
+}
+
+.dropdown_menu a {
+  color: white;
+}
+.dropdown_menu li {
+  margin-top: 15px;
+  font-size: 20px;
+}
+.dropdown_menu li :hover {
+  text-shadow: 0 0 3px #c9c1bf, 0 0 5px white;
+}
+
+.header-list:hover .dropdown_menu {
+  display: block;
 }
 
 /* 1 section */
@@ -47,20 +72,21 @@ header {
   width: 100%;
   height: 100vh;
   background-size: cover;
+  background-position: center;
   background-image: url("images/Cover\ 8\ older.jpg");
- 
 }
 
 .Slogan-box {
   position: absolute;
   top: 50%;
-  left: 40%;
+  left: 30%;
   transform: translateY(-50%) translateX(-50%);
+  max-width: 700px;
 }
 .Slogan {
   text-transform: uppercase;
   color: white;
-  font-size: 90px;
+  font-size: 80px;
 }
 
 .Our-Services {
@@ -73,4 +99,35 @@ header {
   font-size: 18px;
   color: white;
   background-color: #4bacec;
+}
+
+.Our-Services:hover {
+  background-color: #1f97e7;
+  text-shadow: #c9c1bf;
+}
+
+/* second section  */
+/*  */
+.Second-section {
+  height: 100vh;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.Second-section h2 {
+  font-size: 60px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px;
+}
+
+.box {
+  /* max-width: 500px; */
+  width: 300px;
+  height: 300px;
+  background-color: blue;
 }
