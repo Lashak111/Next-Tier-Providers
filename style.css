@@ -1,12 +1,11 @@
-
-
 /* Header  */
 header {
   width: 100%;
   align-items: center;
   position: fixed;
   display: flex;
-  background-color: rgba(0, 0, 0, 0.178);
+  background-color: rgba(0, 0, 255, 0.11);
+  z-index: 1;
 }
 
 .navigation {
@@ -15,6 +14,7 @@ header {
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  display: none;
 }
 
 .Navigation-ul {
@@ -104,24 +104,24 @@ header {
 }
 
 /* second section  */
- .Second-section {
+.Second-section {
   margin: 0 auto;
-  margin-top:50px;
+  margin-top: 50px;
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
 }
 
 .aboutus-container {
-    max-width: 600px; 
-    display: flex; 
-    flex-direction: column;
-    padding:20px;
-    margin:30px;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 30px;
 }
 .aboutus-container h2 {
-  font-size:50px;
+  font-size: 50px;
   font-style: italic;
-  color: #1f97e7;
+  /* color: #1f97e7; */
 }
 
 .aboutus-container h2::after {
@@ -134,31 +134,29 @@ header {
 }
 
 .aboutus-container h4 {
-  font-size:35px;
-  margin-top:20px;
-  margin-bottom:20px;
-  color: rgb(53, 52, 52);
-
+  font-size: 28px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #3c4048;
 }
 
-.aboutus-container p { 
-  font-size:25px;
+.aboutus-container p {
+  font-size: 21px;
   line-height: 1.6;
 }
 /* -----------------------what we do  */
 .whatwedo-container {
-  max-width:800px; 
-  display: flex; 
+  max-width: 800px;
+  display: flex;
   flex-direction: column;
-  padding:20px;
-  margin:30px;
+  padding: 20px;
+  margin: 30px;
 }
 
 .whatwedo-container h2 {
-  /* text-align: right; */
-  font-size:50px;
+  font-size: 50px;
   font-style: italic;
-  color: #1f97e7;
+  /* color: #1f97e7; */
 }
 
 .whatwedo-container h2::after {
@@ -180,17 +178,35 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width:200px;
-  height:220px;
-  margin:20px;
+  width: 150px;
+  height: 150px;
+  margin: 20px;
 }
 
 .box1 img {
-  width:150px;
-  height:150px;
+  width: 100px;
+  height: 100px;
   margin-bottom: 10px;
 }
 
 .box1 h3 {
-  font-size:25px;
+  font-size: 25px;
+}
+/*third section  */
+
+.Third-section {
+  height: 100vh;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-image: url("images/whyntp.jpg");
+  background-size: cover;
+  padding: 20px;
+}
+
+
+.Third-section p {
+  width:600px;
+  color: white;
+  font-size: 18px;
+  margin-top:100px;
 }
