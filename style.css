@@ -71,7 +71,6 @@ header {
   background-size: cover;
   background-position: center;
   background-image: url("images/Cover\ 8\ older.jpg");
-  z-index: 1;
 }
 
 .Slogan-box {
@@ -106,80 +105,92 @@ header {
 
 /* second section  */
  .Second-section {
-  height: 100vh;
   margin: 0 auto;
-  text-align:initial;
-  margin-top: 50px;
+  margin-top:50px;
+  display: flex;
+  justify-content:space-around;
 }
 
-.Second-section h2 {
+.aboutus-container {
+    max-width: 600px; 
+    display: flex; 
+    flex-direction: column;
+    padding:20px;
+    margin:30px;
+}
+.aboutus-container h2 {
   font-size:50px;
-  margin-left: 25px;
   font-style: italic;
+  color: #1f97e7;
 }
 
-.Second-section h2::after {
+.aboutus-container h2::after {
   content: "";
-  width: 500px;
+  width: 300px;
   height: 2px;
   background-color: #1f97e7;
   display: block;
   margin-top: 5px;
 }
 
-.second-sec-container {
-  display: flex;
-  justify-content: space-around;
+.aboutus-container h4 {
+  font-size:35px;
+  margin-top:20px;
+  margin-bottom:20px;
+  color: rgb(53, 52, 52);
+
 }
 
-.wwa-box {
- max-width:600px;
- width: 100%;
- padding: 15px;
- margin: 10px;
+.aboutus-container p { 
+  font-size:25px;
+  line-height: 1.6;
+}
+/* -----------------------what we do  */
+.whatwedo-container {
+  max-width:800px; 
+  display: flex; 
+  flex-direction: column;
+  padding:20px;
+  margin:30px;
 }
 
-.wwa-box h5 {
-  font-size: 30px;
-  margin: 10px;
-}
-
-.wwa-box p {
-  font-size: 18px;
-}
-
-.wwa-image {
-  width: 400px;
-  height: 300px;
-}
-
-
-
-
-
-
-
-/* third section */
-
-/* .third-section {
-  height: 100vh;
-  margin: 0 auto;
-  text-align: center;
-  margin-top: 50px;
-}
-
-.third-section h2 {
+.whatwedo-container h2 {
+  /* text-align: right; */
   font-size:50px;
+  font-style: italic;
+  color: #1f97e7;
 }
 
-.flex-container {
-  display: flex;
-  justify-content:space-around;
-  padding:30px;
-}
-
-.box {
+.whatwedo-container h2::after {
+  content: "";
   width: 300px;
-  height: 300px;
-  background-color: blue;
-} */
+  height: 2px;
+  background-color: #1f97e7;
+  display: block;
+  margin-top: 5px;
+}
+
+.box-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.box1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:200px;
+  height:220px;
+  margin:20px;
+}
+
+.box1 img {
+  width:150px;
+  height:150px;
+  margin-bottom: 10px;
+}
+
+.box1 h3 {
+  font-size:25px;
+}
