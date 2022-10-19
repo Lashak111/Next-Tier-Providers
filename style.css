@@ -2,10 +2,8 @@ html {
   scroll-behavior: smooth;
   /* scroll-padding-top: 70px; */
 }
-/* @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300;1,900&display=swap"); 
-body {
-  font-family: "Lato", sans-serif;
-} */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
 /* Header  */
 header {
   margin: 0 auto;
@@ -35,9 +33,11 @@ header {
   font-style: normal;
   margin-left: 30px;
   font-size: 18px;
+  font-family: "Lato", sans-serif;
 }
 .nav-list:hover {
   text-shadow: 0 0 3px #c9c1bf, 0 0 5px white;
+   
 }
 
 .Logo {
@@ -92,6 +92,8 @@ header {
 .Slogan {
   color: white;
   font-size: 90px;
+
+  font-family: "Lato", sans-serif;
 }
 
 .Our-Services {
@@ -131,6 +133,8 @@ header {
 
 .aboutus-container h2 {
   font-size: 50px;
+
+  font-family: "Lato", sans-serif;
   margin-bottom: 30px;
 }
 
@@ -154,10 +158,13 @@ header {
 .aboutus-container p {
   font-size: 21px;
   line-height: 1.6;
+  font-family: "Lato", sans-serif;
 }
-.BG-image {
-  border-radius: 10px;
 
+.BG-image {
+  width: 600px;
+  border-radius: 10px;
+  /* object-fit: contain; */
   border: none;
 }
 
@@ -182,7 +189,10 @@ header {
 .wyntp-h2 h2 {
   color: white;
   font-size: 90px;
-  font-weight: bold;
+  /* font-weight: bold; */
+}
+.test {
+  margin-left: 50px;
 }
 
 .whyntp-container {
@@ -325,7 +335,7 @@ img {
   position: relative;
   padding: 5px;
   font-size: 16px;
-  color: aliceblue;
+  color: white;
 }
 
 .accordion-title::before {
@@ -339,13 +349,12 @@ img {
 
 .accordion-content {
   position: relative;
-  background-color: white;
   color: #151616;
   font-size: 18px;
   width: 100%;
   height: 0;
   overflow: hidden;
-  color: aliceblue;
+  color: white;
 }
 
 .acordion-box.active .accordion-content {
@@ -362,3 +371,46 @@ img {
   transform: translateY(-50%);
   position: absolute;
 }
+
+/* 6section  */
+
+/* .six-section {
+  margin-top: 30px;
+  padding: 25px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+
+}
+
+.six-section h2 {
+  font-size: 250px;
+  font-style: italic;
+  position: absolute;
+  top: 2%;
+  right: 15%;
+ 
+}
+
+.Mission {
+  max-width: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: absolute;
+  
+  top: 30%;
+}
+
+.vission {
+  text-align: center;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  right: 10%;
+} */
