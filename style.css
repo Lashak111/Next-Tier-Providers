@@ -1,6 +1,5 @@
 html {
   scroll-behavior: smooth;
-  /* scroll-padding-top: 70px; */
 }
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
 
@@ -9,13 +8,12 @@ header {
   margin: 0 auto;
   width: 100%;
   align-items: center;
-  /* position: fixed; */
   display: flex;
   z-index: 1;
 }
 
 .navigation {
-  padding: 25px;
+  padding: 35px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -73,6 +71,7 @@ header {
 /* 1 section */
 .First-section {
   margin: 0 auto;
+  margin-bottom: 50px;
   width: 100%;
   height: 100vh;
   background-size: cover;
@@ -83,7 +82,7 @@ header {
 .Slogan-box {
   position: absolute;
   margin-left: 25px;
-  top: 45%;
+  top: 65%;
   left: 30%;
   transform: translateY(-50%) translateX(-50%);
   max-width: 700px;
@@ -94,6 +93,13 @@ header {
   font-family: "Lato", sans-serif;
 }
 
+.Slogan span {
+  border-width: 0.5px;
+  /* border-style: dashed; */
+  color: white;
+  padding: 2px;
+  font-size: 95px;
+}
 .Our-Services {
   position: absolute;
   border-radius: 50px;
@@ -148,7 +154,7 @@ header {
   font-size: 28px;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #3c4048;
+  color: rgb(12, 8, 8);
   line-height: 1.3;
 }
 
@@ -161,7 +167,6 @@ header {
 .BG-image {
   width: 600px;
   border-radius: 10px;
-  /* object-fit: contain; */
   border: none;
 }
 
@@ -186,7 +191,6 @@ header {
 .wyntp-h2 h2 {
   color: white;
   font-size: 90px;
-  /* font-weight: bold; */
 }
 .test {
   margin-left: 50px;
@@ -288,7 +292,7 @@ header {
   display: flex;
   justify-content: space-around;
   background-image: url("images/ასა.jpg");
-  /* background-size: cover;  */
+  background-size: cover; 
   align-items: center;
 }
 img {
@@ -370,25 +374,24 @@ img {
 }
 
 /* 6section  */
-
-/* .six-section {
-  margin-top: 30px;
+.six-section {
+  /* background-image: url("images/whitebg.jpg"); */
+  /* background-size: cover; */
+  background-color: #39a6f0;
   padding: 25px;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   position: relative;
-
 }
 
 .six-section h2 {
   font-size: 250px;
   font-style: italic;
   position: absolute;
-  top: 2%;
+  top: 0%;
   right: 15%;
- 
 }
 
 .Mission {
@@ -398,10 +401,18 @@ img {
   flex-direction: column;
   text-align: center;
   position: absolute;
-  
   top: 30%;
 }
+.Mission h3 {
+  font-size:90px;
+  margin-bottom:25px;
+  font-style: italic;
+}
 
+.Mission p {
+   line-height: 1.2;
+}
+/* ------------ */
 .vission {
   text-align: center;
   max-width: 500px;
@@ -410,4 +421,26 @@ img {
   position: absolute;
   top: 50%;
   right: 10%;
-} */
+}
+
+.vission h3 {
+  font-size:90px;
+  margin-bottom:25px;
+  font-style: italic;
+}
+
+.vission p {
+  line-height: 1.2;
+}
+
+
+
+/* 7 section  */
+
+
+.seven-section  {
+  background-color: #62727c;
+  padding: 25px;
+  height: 100vh;
+
+}
