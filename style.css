@@ -67,6 +67,57 @@ header {
 .header-list:hover .dropdown_menu {
   display: block;
 }
+/* burgerstyles */
+
+.test {
+  cursor: pointer;
+}
+
+.menu-btn {
+  transition: all 0.5s ease-in-out;
+  display: none;
+}
+
+.menu-btn__burger {
+  width: 50px;
+  height: 6px;
+  background: #fff;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+}
+
+.menu-btn__burger::before,
+.menu-btn__burger::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 6px;
+  background: #fff;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+}
+
+.menu-btn__burger::before {
+  transform: translateY(-16px);
+}
+
+.menu-btn__burger::after {
+  transform: translateY(16px);
+}
+
+/* animation */
+
+.menu-btn.open .menu-btn__burger {
+  transform: translate(-50px);
+  background: transparent;
+}
+
+.menu-btn.open .menu-btn__burger::before {
+  transform: rotate(45deg) translate(35px, -35px);
+}
+.menu-btn.open .menu-btn__burger::after {
+  transform: rotate(-45deg) translate(35px, 35px);
+}
 
 /* 1 section */
 .First-section {
@@ -342,7 +393,7 @@ img {
 }
 
 .accordion-title::before {
-  content: "+";
+  content: "▼";
   font-size: 25px;
   position: absolute;
   top: 50%;
@@ -367,7 +418,7 @@ img {
 }
 
 .acordion-box.active .accordion-title::before {
-  content: "^";
+  content: "▲";
   font-size: 25px;
   top: 50%;
   right: 5px;
@@ -382,27 +433,24 @@ img {
 }
 .container6 {
   display: flex;
-  margin: 0 auto;
-
 }
 .Our_Team {
   width: 100%;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   text-align: center;
   align-items: center;
   padding: 15px;
 }
 .Our_Team img {
-   width: 200px;
-   height:200px;
-   object-fit: contain;
-   margin-bottom: 50px;
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  margin-bottom: 40px;
 }
 .Our_Team h2 {
   font-size: 80px;
-  margin-bottom: 25px;
+  margin-bottom: 35px;
 }
 
 .Our_Team p {
@@ -422,18 +470,20 @@ img {
 
 .MV-container h2 {
   color: white;
-  font-size:100px;
-  margin-bottom:50px;
+  font-size: 100px;
+  margin-bottom: 50px;
 }
 .MV-container h4 {
   color: white;
-  font-size:60px;
+  font-size: 60px;
   margin-bottom: 20px;
-  margin-top:10px;
+  margin-top: 20px;
 }
 
 .MV-container p {
   color: white;
-  font-size:20px;
-
+  font-size: 20px;
+  line-height: 1.2;
 }
+
+/* footer */
