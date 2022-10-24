@@ -417,7 +417,7 @@ header {
 
 .MV-container {
   width: 100%;
-  background-image: url("images/6\ section.jpg");
+  background-image: url("images/2809296.jpg");
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -426,7 +426,7 @@ header {
 }
 
 .MV-container h2 {
-  color: white;
+  color:white;
   font-size: 100px;
   margin-bottom: 50px;
 }
@@ -438,9 +438,54 @@ header {
 }
 
 .MV-container p {
-  color: white;
+  color:white;
   font-size: 20px;
   line-height: 1.2;
 }
 
 /* footer */
+footer {
+  height:500px;
+  margin-top: 50px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.Left-footer {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  text-align: center;
+}
+
+.Left-footer div  {
+  margin-top: 15px;
+}
+
+.Middle-footer {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  text-align: center;
+}
+
+.Right-footer {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  text-align: center;
+}
+
+footer li {
+  margin-top:15px;
+  color: black;
+}
+
+
+footer a {
+ color: #151616;
+}
+footer h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
