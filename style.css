@@ -426,7 +426,7 @@ header {
 }
 
 .MV-container h2 {
-  color:white;
+  color: white;
   font-size: 100px;
   margin-bottom: 50px;
 }
@@ -438,14 +438,14 @@ header {
 }
 
 .MV-container p {
-  color:white;
+  color: white;
   font-size: 20px;
   line-height: 1.2;
 }
 
 /* footer */
 footer {
-  height:500px;
+  height: 500px;
   margin-top: 50px;
   padding: 50px;
   display: flex;
@@ -458,7 +458,7 @@ footer {
   text-align: center;
 }
 
-.Left-footer div  {
+.Left-footer div {
   margin-top: 15px;
 }
 
@@ -477,13 +477,12 @@ footer {
 }
 
 footer li {
-  margin-top:15px;
+  margin-top: 15px;
   color: black;
 }
 
-
 footer a {
- color: #151616;
+  color: #151616;
 }
 footer h4 {
   font-size: 24px;
