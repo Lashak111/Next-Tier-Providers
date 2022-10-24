@@ -72,7 +72,8 @@ header {
   position: fixed;
   right: 25px;
   bottom: 25px;
-  background-color: rgba(0, 81, 255, 0.849);
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.829);
   padding: 5px;
   z-index: 2;
 }
@@ -106,7 +107,6 @@ header {
 
 .Slogan span {
   border-width: 0.5px;
-  /* border-style: dashed; */
   color: white;
   padding: 2px;
   font-size: 95px;
