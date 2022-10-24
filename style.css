@@ -1,7 +1,6 @@
 html {
   scroll-behavior: smooth;
 }
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
 
 /* Header  */
 header {
@@ -40,7 +39,7 @@ header {
 .Logo {
   width: 85px;
   height: 75px;
-  margin-left: 55px;
+  margin-left: 10%;
 }
 
 /* dropdown */
@@ -67,59 +66,20 @@ header {
 .header-list:hover .dropdown_menu {
   display: block;
 }
-/* burgerstyles */
-
-.test {
-  cursor: pointer;
-}
-
-.menu-btn {
-  transition: all 0.5s ease-in-out;
-  display: none;
-}
-
-.menu-btn__burger {
-  width: 50px;
-  height: 6px;
-  background: #fff;
-  border-radius: 5px;
-  transition: all 0.5s ease-in-out;
-}
-
-.menu-btn__burger::before,
-.menu-btn__burger::after {
-  content: "";
-  position: absolute;
-  width: 50px;
-  height: 6px;
-  background: #fff;
-  border-radius: 5px;
-  transition: all 0.5s ease-in-out;
-}
-
-.menu-btn__burger::before {
-  transform: translateY(-16px);
-}
-
-.menu-btn__burger::after {
-  transform: translateY(16px);
-}
-
-/* animation */
-
-.menu-btn.open .menu-btn__burger {
-  transform: translate(-50px);
-  background: transparent;
-}
-
-.menu-btn.open .menu-btn__burger::before {
-  transform: rotate(45deg) translate(35px, -35px);
-}
-.menu-btn.open .menu-btn__burger::after {
-  transform: rotate(-45deg) translate(35px, 35px);
-}
 
 /* 1 section */
+.scroll {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  background-color: rgba(0, 81, 255, 0.849);
+  padding: 5px;
+  z-index: 2;
+}
+.scrollicon {
+  color: #fff;
+  font-size: 30px;
+}
 .First-section {
   margin: 0 auto;
   margin-bottom: 50px;
@@ -184,7 +144,6 @@ header {
   display: flex;
   flex-direction: column;
   padding: 20px;
-  margin: 55px;
 }
 
 .aboutus-container h2 {
@@ -217,7 +176,8 @@ header {
 }
 
 .BG-image {
-  width: 600px;
+  min-width: 500px;
+  width: 100%;
   border-radius: 10px;
   border: none;
 }
@@ -234,19 +194,16 @@ header {
   margin-bottom: 50px;
 }
 
-.wyntp-h2 {
+.wyntp-title {
   display: flex;
   justify-content: center;
-  align-items: center;
+  text-align: center;
   flex-direction: column;
   margin-left: 20px;
 }
-.wyntp-h2 h2 {
+.wyntp-title h2 {
   color: white;
   font-size: 90px;
-}
-.test {
-  margin-left: 50px;
 }
 
 .whyntp-container {
@@ -348,7 +305,7 @@ header {
   background-size: cover;
   align-items: center;
 }
-img {
+.Five-section img {
   width: 400px;
   height: 400px;
   border-radius: 50%;
@@ -418,7 +375,7 @@ img {
 }
 
 .acordion-box.active .accordion-title::before {
-  content: "▲";
+  content: "^";
   font-size: 25px;
   top: 50%;
   right: 5px;
@@ -427,7 +384,7 @@ img {
 }
 
 /* 6section  */
-.six-section {
+.sixth-section {
   height: 100vh;
   display: flex;
 }

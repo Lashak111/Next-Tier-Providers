@@ -1,9 +1,73 @@
+@media (max-width: 1090px) {
+  .aboutus-container h4 {
+    font-size: 25px;
+  }
+  .aboutus-container p {
+    font-size: 18px;
+  }
+  .Slogan-box {
+    left: 35%;
+  }
+}
+
+@media (max-width: 1050px) {
+  .box1 {
+    width: 250px;
+    height: 250px;
+  }
+}
 
 @media (max-width: 1024px) {
-   .menu-btn {
-    display: block;
-   }
-   .nav-list {
+  .accordion-title::before {
+    font-size: 20px;
+    right: 0px;
+  }
+  .acordion-box.active .accordion-title::before {
+    font-size: 20px;
+    right: 0px;
+  }
+  .Five-section img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+  }
+  .MV-container h4 {
+    font-size: 50px;
+  }
+  .MV-container p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 990px) {
+  .nav-list {
     display: none;
+  }
+  .whyntp-container {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .whyntp {
+    font-size: 16px;
+  }
+  .whyntp2 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 920px) {
+  .BG-image {
+    min-width: 450px;
+    width: 100%;
+  }
+  .box1 {
+    width: 200px;
+    height: 200px;
+  }
+  .whyntp {
+    line-height: 1.1;
+  }
+  .whyntp2 {
+    line-height: 1.1;
   }
 }
