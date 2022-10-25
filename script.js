@@ -1,5 +1,3 @@
-
-
 // accordion
 let accordion = document.querySelectorAll(".acordion-box");
 
@@ -8,8 +6,6 @@ for (let item of accordion) {
     this.classList.toggle("active");
   });
 }
-
-
 
 let scroll = document.getElementById("Scrooltop");
 
