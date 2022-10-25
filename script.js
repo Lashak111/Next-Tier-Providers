@@ -15,3 +15,5 @@ scroll.addEventListener("click", () => {
     behavior: "smooth",
   });
 });
+
+

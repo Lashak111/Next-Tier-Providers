@@ -66,20 +66,24 @@ header {
 .header-list:hover .dropdown_menu {
   display: block;
 }
-
+.hdr {
+  background-color: #1f97e7;
+}
 /* 1 section */
 .scroll {
   position: fixed;
   right: 25px;
   bottom: 25px;
   border-radius: 50%;
-  background-color: #217cb836;
+  background-color: #00000000;
+  border-color: #39a6f0;
   padding: 5px;
   z-index: 1;
 }
 .scrollicon {
   color: #fff;
-  font-size: 30px;
+  width: 50px;
+  height: 50px;
 }
 .First-section {
   margin: 0 auto;
