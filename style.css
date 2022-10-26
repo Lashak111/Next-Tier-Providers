@@ -404,7 +404,7 @@ header {
 .left-box {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   text-align: center;
   padding: 30px;
@@ -415,7 +415,7 @@ header {
   color: #151616;
 }
 .left-box p {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.2;
   color: #191919;
   margin-bottom: 20px;
@@ -423,13 +423,13 @@ header {
 .left-box img {
   width: 180px;
   height: 180px;
-  margin-bottom: 40px;
+  /* margin-top: 40px; */
 }
 
 .middle-box {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   text-align: center;
   padding: 30px;
@@ -440,7 +440,7 @@ header {
   color: #191919;
 }
 .middle-box p {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.2;
   color: #191919;
   margin-bottom: 20px;
@@ -449,12 +449,12 @@ header {
   width: 180px;
   height: 180px;
   object-fit: contain;
-  margin-bottom: 40px;
+  /* margin-top: 40px; */
 }
 .right-box {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   text-align: center;
   padding: 30px;
@@ -462,10 +462,10 @@ header {
 .right-box img {
   width: 180px;
   height: 180px;
-  margin-bottom: 40px;
+  /* margin-top: 40px; */
 }
 .right-box p {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.2;
   color: #191919;
   margin-bottom: 20px;
@@ -475,6 +475,105 @@ header {
   margin-bottom: 35px;
   color: #151616;
 }
+
+
+/* ///////// */
+.slider {
+  /* height: 100vh; */
+  background-color: #1f97e7;
+}
+
+
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition:  0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
 
 /* footer */
 .footer-distributed {
@@ -606,6 +705,8 @@ header {
 .footer-icons a:hover {
   background-color: #39a6f0;
 }
+
+
 /* @media (max-width: 880px) {
   .footer-distributed {
     font: bold 14px sans-serif;
