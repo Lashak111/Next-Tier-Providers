@@ -654,8 +654,7 @@ img {
 
 /* Footer Center */
 
-.footer-distributed .footer-center i {
-  background-color: white;
+.footer-center i {
   color: #191919c9;
   font-size: 21px;
   width: 38px;
@@ -672,6 +671,7 @@ img {
 .footer-center i:hover {
   background-color: #39a6f0;
 }
+
 .footer-distributed .footer-center i.fa-envelope {
   font-size: 17px;
   line-height: 38px;
@@ -682,19 +682,19 @@ img {
   color: black;
   font-weight: 400;
   vertical-align: middle;
-  margin: 0;
+ 
 }
 
-.footer-distributed .footer-center p span {
+.footer-distributed .footer-center span {
   display: block;
   font-weight: normal;
   font-size: 20px;
   line-height: 2;
 }
 
-.footer-center p a {
-  /* color: rgb(57, 75, 74); */
-  text-decoration: none;
+.footer-center {
+  font-size: 21px;
+  font-weight: bold;
 }
 
 .E-Mail {
@@ -706,7 +706,7 @@ img {
 }
 /* Footer Right */
 .footer-right h3 {
-  font-size: 25px;
+  font-size: 21px;
   font-weight: bold;
 }
 .footer-distributed .footer-right {
@@ -728,8 +728,13 @@ img {
   font-weight: bold;
 }
 
-.footer-distributed .footer-icons {
+.footer-icons {
   margin-top: 35px;
+}
+.footer-icons h2 {
+  font-size: 21px;
+  font-weight: bold;
+  margin: 10px;
 }
 
 .footer-distributed .footer-icons a {
@@ -739,13 +744,17 @@ img {
   cursor: pointer;
   background-color: white;
   font-size: 20px;
+  border-color: #151616;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50px;
   color: #191919de;
   text-align: center;
   line-height: 35px;
   margin-right: 20px;
   margin-bottom: 5px;
 }
-.f a:hover {
+.footer-icons a:hover {
   background-color: #39a6f0;
 }
 
