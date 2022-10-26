@@ -5,6 +5,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="//cdn.web-fonts.ge/fonts/bpg-nino-mtavruli/css/bpg-nino-mtavruli.min.css"
+    />
     <script
       src="https://kit.fontawesome.com/49244a576e.js"
       crossorigin="anonymous"
@@ -19,7 +23,7 @@
     <!-- --------------------------------- first section----------------------------------------------- -->
     <section class="First-section">
       <header>
-        <nav class="navigation">
+        <nav class="navigation" id="nav-items">
           <a href="index.html">
             <img class="Logo" src="images/Logo 9.png" alt="Logo" />
           </a>
@@ -75,6 +79,9 @@
             <li><a class="nav-list" href="#footer"> Contact</a></li>
           </ul>
         </nav>
+        <div class="menu-btn">
+          <div class="menu-btn__burger"></div>
+        </div>
       </header>
       <button class="scroll" id="Scrooltop">
         <img class="scrollicon" src="images/scroll.png" alt="" />
@@ -323,41 +330,73 @@
       </div>
     </section>
 
+    <!-- slideer -->
 
-  
-<div class="slideshow-container">
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">
+          <p>
+            "IT and business are becoming inextricably interwoven. I don't think
+            anybody can talk meaningfully about one without talking about the
+            other." - Bill Gates
+          </p>
+        </div>
+        <img src="images/Cover 2 (without text).png" style="width: 100%" />
+      </div>
 
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 3</div>
-    <img src="images/Cover 2 (without text).png" style="width:100%">
-    <div class="text">Caption Text</div>
-  </div>
-  
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 3</div>
-    <img src="images/ასა.jpg" style="width:100%">
-    <div class="text">Caption Two</div>
-  </div>
-  
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 3</div>
-    <img src="https://images.pexels.com/photos/302743/pexels-photo-302743.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" style="width:100%">
-    <div class="text">Caption Three</div>
-  </div>
-  
-  <a class="prev" onclick="plusSlides(-1)">❮</a>
-  <a class="next" onclick="plusSlides(1)">❯</a>
-  
-  </div>
-  <br>
-  
-  <div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span> 
-    <span class="dot" onclick="currentSlide(2)"></span> 
-    <span class="dot" onclick="currentSlide(3)"></span> 
-  </div>
-  
-    
+      <div class="mySlides fade">
+        <div class="numbertext">
+          <p>
+            "The technology you use impresses no one. The experience you create
+            with IT is everything.” - Sean Gerety (User Experience Expert)
+          </p>
+        </div>
+        <img src="images/slider.blue.jpg" style="width: 100%" />
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">
+          <p>
+            "Technology is best when IT brings people together." - Matt
+            Mullenweg (Founder & CEO - CBBQTT, Lead Developer of WordPress)
+          </p>
+        </div>
+        <img src="images/slider.blue2.jpg" style="width: 100%" />
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">
+          <p>
+            “Even a small amount of unplanned downtime can affect a company’s
+            profitability and reputation.” ― Ratmir Timashev (CEO of Veeam)
+          </p>
+        </div>
+        <img src="images/slider.blue.jpg" style="width: 100%" />
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">
+          <p>
+            "In any complicated problem, you have to look at the details, and
+            you have to dissect it and do some analysis.” – Andy Jassy (CEO of
+            Amazon since 2021, Founder of AWS, Person of the year 2016 by
+            Financial Times)
+          </p>
+        </div>
+        <img src="images/slider.blue2.jpg" style="width: 100%" />
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+    </div>
+    <br />
+
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+
     <!-- footer -->
 
     <footer class="footer-distributed" id="footer">
@@ -369,13 +408,16 @@
           <li><a href=""> Services</a></li>
         </ul>
 
-        <p class="footer-company-name">NTP © 2022</p>
+        <p class="footer-company-name">Next Tier Providers ©</p>
       </div>
 
       <div class="footer-center">
         <div>
           <i class="fa fa-map-marker"></i>
-          <p><span> 35 vaja pshavela avenue </span> Tbilisi</p>
+          <p>
+            <span> #116 Akaki Tesereteli Avenue, </span>
+            Tbilisi
+          </p>
         </div>
 
         <div>
@@ -386,10 +428,19 @@
         <div>
           <i class="fa fa-envelope"></i>
           <p>
-            <a class="E-Mail" href="mailto:support@company.com"
-              >NTP@company.com</a
-            >
+            <a class="E-Mail" href="mailto:support@company.com">info@ntp.ge</a>
           </p>
+        </div>
+        <div class="footer-icons">
+          <a href="https://www.facebook.com/" target="_blank"
+            ><i class="fa fa-facebook"></i
+          ></a>
+          <a href="https://twitter.com/?lang=en" target="_blank"
+            ><i class="fa fa-twitter"></i
+          ></a>
+          <a href="https://www.linkedin.com/" target="_blank"
+            ><i class="fa fa-linkedin"></i
+          ></a>
         </div>
       </div>
 
@@ -403,18 +454,6 @@
           <li><a href="#"> Support & Maintenance </a></li>
           <li><a href="#"> Outsorting </a></li>
         </ul>
-
-        <div class="footer-icons">
-          <a href="https://www.facebook.com/" target="_blank"
-            ><i class="fa fa-facebook"></i
-          ></a>
-          <a href="https://twitter.com/?lang=en" target="_blank"
-            ><i class="fa fa-twitter"></i
-          ></a>
-          <a href="https://www.linkedin.com/" target="_blank"
-            ><i class="fa fa-linkedin"></i
-          ></a>
-        </div>
       </div>
     </footer>
 
