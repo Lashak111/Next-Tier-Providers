@@ -57,17 +57,12 @@
     font-size: 20px;
     right: 0px;
   }
-  .Five-section img {
+  .section-7 img {
     width: 300px;
     height: 300px;
     border-radius: 50%;
   }
-  .MV-container h4 {
-    font-size: 50px;
-  }
-  .MV-container p {
-    font-size: 18px;
-  }
+
 }
 
 @media (max-width: 990px) {
@@ -79,10 +74,10 @@
     margin-left: 10px;
   }
   .whyntp {
-    font-size: 16px;
+    font-size: 14px;
   }
   .whyntp2 {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 
@@ -109,6 +104,9 @@
     line-height: 1.1;
   }
   .whyntp2 {
+    line-height: 1.1;
+  }
+  .whyntp3 {
     line-height: 1.1;
   }
 }
