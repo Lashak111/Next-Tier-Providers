@@ -1,0 +1,59 @@
+.Section1-services {
+    background-image: url("images/Cover\ 7\ with\ text.jpg");
+    background-clip: cover;
+    height: 100vh;
+    margin-bottom: 80px;
+    
+}
+
+/* section2  */
+.Section2-services {
+    padding: 25px ;
+    height: 100vh ;
+    display: flex;
+}
+
+.Section2-services h3 {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.Section2-services p {
+    max-width: 800px;
+    line-height: 1.2;
+    font-size: 18px;
+}
+
+
+/* 3 section */
+.Section3-services {
+    height: 100vh;
+    padding: 25px ;
+    height: 100vh ;
+    display: flex;
+}
+
+.Section2-services h3 {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 15px;
+
+}
+
+.Section3-services p {
+    max-width: 800px;
+
+    font-size: 18px;
+    float: left;
+}
+
+.Section3-services h3 {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 15px;
+
+}
+
+
+

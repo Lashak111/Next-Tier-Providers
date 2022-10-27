@@ -1,7 +1,9 @@
 html {
   scroll-behavior: smooth;
 }
-
+section {
+  margin-bottom: 80px;
+}
 /* Header  */
 header {
   margin: 0 auto;
@@ -290,6 +292,10 @@ header {
   line-height: 1.2;
   margin-top: 20px;
 }
+.Loadmore {
+  font-weight: bold;
+  color: #151616;
+}
 
 /*4 section  */
 .Fourth-section {
@@ -354,7 +360,10 @@ header {
 .box1 a {
   color: #020202;
 }
-
+.box1 a:hover {
+  color:#1f97e7;
+  font-weight: bold;
+}
 /* 5 section */
 .Five-section {
   margin-bottom: 50px;
@@ -470,6 +479,7 @@ header {
   margin-bottom: 35px;
   color: #151616;
 }
+
 .left-box p {
   font-size: 20px;
   line-height: 1.2;
@@ -479,7 +489,7 @@ header {
 .left-box img {
   width: 180px;
   height: 180px;
-  /* margin-top: 40px; */
+
 }
 
 .middle-box {
@@ -518,7 +528,7 @@ header {
 .right-box img {
   width: 180px;
   height: 180px;
-  /* margin-top: 40px; */
+
 }
 .right-box p {
   font-size: 20px;
@@ -651,6 +661,34 @@ img {
   font-weight: normal;
   margin-top: 50px;
 }
+.footer-icons {
+  margin-top: 35px;
+}
+.footer-icons h2 {
+  font-size: 21px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.footer-distributed .footer-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: white;
+  font-size: 20px;
+  border-color: #151616;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50px;
+  color: #191919de;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 20px;
+}
+.footer-icons a:hover {
+  background-color: #39a6f0;
+}
 
 /* Footer Center */
 
@@ -682,7 +720,6 @@ img {
   color: black;
   font-weight: 400;
   vertical-align: middle;
- 
 }
 
 .footer-distributed .footer-center span {
@@ -726,36 +763,6 @@ img {
   color: #1f97e7;
   font-size: 22px;
   font-weight: bold;
-}
-
-.footer-icons {
-  margin-top: 35px;
-}
-.footer-icons h2 {
-  font-size: 21px;
-  font-weight: bold;
-  margin: 10px;
-}
-
-.footer-distributed .footer-icons a {
-  display: inline-block;
-  width: 35px;
-  height: 35px;
-  cursor: pointer;
-  background-color: white;
-  font-size: 20px;
-  border-color: #151616;
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 50px;
-  color: #191919de;
-  text-align: center;
-  line-height: 35px;
-  margin-right: 20px;
-  margin-bottom: 5px;
-}
-.footer-icons a:hover {
-  background-color: #39a6f0;
 }
 
 @media (max-width: 880px) {
