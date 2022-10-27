@@ -18,6 +18,32 @@
 }
 
 @media (max-width: 1024px) {
+  .nav-items {
+    display: none;
+  }
+
+  .nav-list {
+    margin-left: 0px;
+    display: block;
+    text-align: center;
+    padding: 15px 0;
+  }
+
+  .nav-ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 70px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px 0px;
+  }
+
+
+  .menu-btn {
+    display: block;
+  }
   .accordion-title::before {
     font-size: 20px;
     right: 0px;
