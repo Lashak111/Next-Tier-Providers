@@ -15,6 +15,12 @@
     width: 250px;
     height: 250px;
   }
+  .Slider-text span {
+    font-size: 25px;
+  }
+  .Slider-text p {
+    font-size:30px;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -40,7 +46,6 @@
     padding: 15px 0px;
   }
 
-
   .menu-btn {
     display: block;
   }
@@ -57,10 +62,16 @@
     font-size: 20px;
     right: 0px;
   }
+  .accordion-content {
+    
+    font-size: 16px;
+   
+  }
   .section-7 img {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
+    margin: 20px;
   }
 
 }
@@ -79,6 +90,9 @@
   .whyntp2 {
     font-size: 14px;
   }
+  .whyntp2   {
+  font-size: 14px;
+}
 }
 
 @media (max-width: 920px) {
@@ -94,19 +108,13 @@
     font-size: 18px;
     margin-bottom: 10px;
   }
-
+   .Third-section {
+    display: none;
+   }
   .box1 img {
     width: 100px;
     height: 100px;
     margin-bottom: 15px;
   }
-  .whyntp {
-    line-height: 1.1;
-  }
-  .whyntp2 {
-    line-height: 1.1;
-  }
-  .whyntp3 {
-    line-height: 1.1;
-  }
+ 
 }

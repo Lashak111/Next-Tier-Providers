@@ -1,9 +1,9 @@
 html {
   scroll-behavior: smooth;
 }
-section {
+/* section {
   margin-bottom: 80px;
-}
+} */
 .Header {
   width: 100%;
   margin: 0 auto;
@@ -193,7 +193,7 @@ section {
 /* second section  */
 .Second-section {
   margin: 0 auto;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
   height: 100vh;
   display: flex;
   justify-content: space-around;
@@ -253,9 +253,8 @@ section {
   height: 100vh;
   display: flex;
   justify-content: space-around;
-  padding: 40px;
+  padding:30px;
   align-items: center;
-  margin-bottom: 50px;
 }
 
 .wyntp-title {
@@ -295,17 +294,14 @@ section {
   font-size: 16px;
   line-height: 1.2;
   margin-top: 20px;
+  margin-right:50px;
 }
 .whyntp3 {
   color: white;
   font-size: 16px;
   line-height: 1.2;
   margin-left: 15px;
-  margin-bottom: 15px;
-}
-.Loadmore {
-  font-weight: bold;
-  color:#1f97e7;
+  margin-bottom:35px;
 }
 
 /*4 section  */
@@ -315,7 +311,7 @@ section {
   flex-direction: column;
   padding: 30px;
   text-align: center;
-  margin-bottom: 50px;
+
 }
 
 .Fourth-section h2 {
@@ -375,94 +371,99 @@ section {
   color:#1f97e7;
   font-weight: bold;
 }
+
+
 /* 5 section */
-.section-7 {
-  margin-bottom: 50px;
-  height: 100vh;
-  padding: 50px;
-  display: flex;
-  justify-content: space-around;
-  background-image: url("images/ასა.jpg");
-  background-size: cover;
+
+/* sliderr */
+.section-5 {
+ height: 100vh;
+}
+.mySlides {
+  display: none;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+
+.Slider-text {
+  padding: 8px 12px;
+  position: absolute;
+  top: 40%;
+  left: 15%;
   align-items: center;
 }
-.section-7 img {
-  width: 400px;
-  height: 400px;
-  border-radius: 50%;
-  margin: 10px;
-}
-.accordion {
-  max-width: 600px;
-  width: 100%;
-  margin: 0 auto;
-}
 
-.acordion-box {
-  border-width: 1px;
-  border-style: solid;
-  border-color: #37393a48;
-  margin: 15px;
-  padding: 10px;
-  box-shadow: 0 0 3px #c9c1bf, 0 0 5px white;
-}
-
-.questions::after {
-  content: "";
-  max-width: 550px;
-  width: 100%;
-  height: 2px;
-  background-color: #1f97e7;
-  display: block;
-  margin-top: 9px;
-}
-
-.questions {
+.Slider-text span {
+  color: white;
   font-size: 30px;
-  margin-bottom: 25px;
-  color: aliceblue;
+  float: right;
+  margin-right:35px;
 }
-
-.accordion-title {
-  cursor: pointer;
-  position: relative;
-  padding: 5px;
-  font-size: 16px;
+.Slider-text p {
+  font-weight: bold;
   color: white;
+  font-size:40px;
+  line-height: 1.5;
+  
 }
 
-.accordion-title::before {
-  content: "￬";
-  font-size: 35px;
-  position: absolute;
-  top: 60%;
-  right: 5px;
-  transform: translateY(-50%);
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.0s;
 }
 
-.accordion-content {
-  position: relative;
-  color: #151616;
-  font-size: 18px;
-  width: 100%;
-  height: 0;
-  overflow: hidden;
-  color: white;
+@keyframes fade {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
-.acordion-box.active .accordion-content {
-  padding: 15px;
-  height: 200px;
-  background: none;
-}
-
-.acordion-box.active .accordion-title::before {
-  content: "￪";
-  font-size: 35px;
-  top: 50%;
-  right: 5px;
-  transform: translateY(-50%);
-  position: absolute;
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev,
+  .next,
+  .text {
+    font-size: 11px;
+  }
 }
 
 /* 6section  */
@@ -471,6 +472,7 @@ section {
   height: 100vh;
   justify-content: space-between;
   padding: 25px;
+  text-align: center;
 }
 .section6 h2 {
   font-size: 50px;
@@ -553,92 +555,95 @@ section {
   color: #151616;
 }
 
-/* sliderrrrr  */
 
-.mySlides {
-  display: none;
+/* section 7 */
+.section-7 {
+  /* margin-bottom: 50px; */
+  height: 100vh;
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+  background-image: url("images/ასა.jpg");
+  background-size: cover;
+  align-items: center;
 }
-img {
-  vertical-align: middle;
+.section-7 img {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  margin: 10px;
+}
+.accordion {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
 }
 
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1500px;
-  position: relative;
-  margin: auto;
+.acordion-box {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #37393a48;
+  margin: 15px;
+  padding: 10px;
+  box-shadow: 0 0 3px #c9c1bf, 0 0 5px white;
 }
 
-/* Next & previous buttons */
-.prev,
-.next {
+.questions::after {
+  content: "";
+  max-width: 550px;
+  width: 100%;
+  height: 2px;
+  background-color: #1f97e7;
+  display: block;
+  margin-top: 9px;
+}
+
+.questions {
+  font-size: 30px;
+  margin-bottom: 25px;
+  color: aliceblue;
+}
+
+.accordion-title {
   cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
+  position: relative;
+  padding: 5px;
+  font-size: 16px;
   color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
 }
 
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Caption text */
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 40%;
-  left: 15%;
-  line-break: strict;
-}
-
-.numbertext p {
+.accordion-title::before {
+  content: "￬";
   font-size: 35px;
-  line-height: 1.5;
-  text-align: left;
+  position: absolute;
+  top: 60%;
+  right: 5px;
+  transform: translateY(-50%);
 }
 
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
+.accordion-content {
+  position: relative;
+  color: #151616;
+  font-size: 18px;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  color: white;
 }
 
-@keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
+.acordion-box.active .accordion-content {
+  padding: 15px;
+  height: 200px;
+  background: none;
 }
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev,
-  .next,
-  .text {
-    font-size: 11px;
-  }
+.acordion-box.active .accordion-title::before {
+  content: "^";
+  font-size: 35px;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  position: absolute;
 }
 
 /* footer */
