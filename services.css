@@ -1,8 +1,9 @@
 .Section1-services {
     background-image: url("images/Cover\ 7\ with\ text.jpg");
-    background-clip: cover;
+    background-size: cover;
     height: 100vh;
     margin-bottom: 80px;
+    background-repeat: no-repeat;
     
 }
 

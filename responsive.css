@@ -44,6 +44,11 @@
   .menu-btn {
     display: block;
   }
+
+  .dropdown_menu {
+    display: none !important;
+  }
+ 
   .accordion-title::before {
     font-size: 20px;
     right: 0px;
