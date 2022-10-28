@@ -129,7 +129,7 @@ body {
 /* 1 section */
 .scroll {
   position: fixed;
-  right: 25px;
+  left: 25px;
   bottom: 25px;
   border-radius: 50%;
   background-color: #00000000;
