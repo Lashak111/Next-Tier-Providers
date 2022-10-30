@@ -1,10 +1,7 @@
 html {
-  scroll-behavior: smooth;
+  scroll-behavior:smooth;
 }
 
-body {
-  font-family: "BPG Arial Caps", sans-serif;
-}
 /* header */
 .Header {
   width: 100%;
@@ -126,29 +123,28 @@ body {
   display: block !important;
 }
 
-.Language-Ka {
+.Language {
   color: white;
   font-weight: bold;
 }
-.Language-En {
-  color: white;
-  font-weight: bold;
-}
+
 /* 1 section */
 .scroll {
   position: fixed;
   left: 25px;
   bottom: 25px;
   border-radius: 50%;
-  background-color: #00000000;
+  width: 50px;
+  height: 50px;
+  background-color: #1f97e7;
   border-color: #39a6f0;
   padding: 5px;
   z-index: 1;
 }
 .scrollicon {
   color: #fff;
-  width: 50px;
-  height: 50px;
+  font-size: 25px;
+  margin: 0 auto;
 }
 .First-section {
   margin: 0 auto;
@@ -172,12 +168,7 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-.Slogan span {
-  border-width: 0.5px;
-  color: white;
-  padding: 2px;
-  font-size: 95px;
-}
+
 .Our-Services {
   position: absolute;
   border-radius: 50px;
@@ -213,11 +204,29 @@ body {
   padding: 20px;
 }
 
+
 .aboutus-container h2 {
-  font-size: 50px;
-  font-family: "Lato", sans-serif;
-  margin-bottom: 30px;
-  color: #191919;
+  font-weight:500;
+  font-size: 45px;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #191919, #191919);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: shine 4s linear ;
+  position: relative;
+ animation-iteration-count:2;
+}
+
+@keyframes shine {
+  0% {
+    background-position-x: -500%;
+  }
+  100% {
+    background-position-x: 500%;
+  }
 }
 
 .aboutus-container h2::after {
@@ -314,12 +323,12 @@ body {
   flex-direction: column;
   padding: 30px;
   text-align: center;
-  margin-bottom: 120px;
+  margin-bottom: 80px;
 }
 
 .Fourth-section h2 {
   font-size: 50px;
-  margin-bottom: 30px;
+  margin-bottom:25px;
 }
 
 .whatwedo-container {
@@ -347,9 +356,6 @@ body {
   height: 250px;
   margin: 20px;
   padding: 25px;
-  border-width: 2px;
-  border-style: solid;
-  border-color: #37393a48;
 }
 
 .box1:hover {
@@ -380,21 +386,20 @@ body {
 /* sliderr */
 .section-5 {
   height: 100vh;
-  background-color: #1d242b;
 }
 .mySlides {
   display: none;
 }
 
 /* Slideshow container */
-/* .slideshow-container { */
-/* width: 100%; */
-/* position: relative; */
-/* margin: 0 auto; */
-/* } */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+}
 
 /* Next & previous buttons */
-/* .prev,
+.prev,
 .next {
   cursor: pointer;
   position: absolute;
@@ -408,10 +413,10 @@ body {
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
-} */
+}
 
 /* Position the "next button" to the right */
-/* .next {
+.next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
@@ -419,11 +424,11 @@ body {
 .prev:hover,
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
-} */
+}
 
 /* Caption text */
 
-/* .Slider-text {
+.Slider-text {
   padding: 8px 12px;
   position: absolute;
   top: 40%;
@@ -442,10 +447,10 @@ body {
   color: white;
   font-size: 30px;
   line-height: 1.5;
-} */
+}
 
 /* Fading animation */
-/* .fade {
+.fade {
   animation-name: fade;
   animation-duration: 1s;
 }
@@ -456,17 +461,17 @@ body {
   }
   to {
     opacity: 1;
-  } */
-/* } */
+  }
+}
 
 /* On smaller screens, decrease text size */
-/* @media only screen and (max-width: 300px) {
+@media only screen and (max-width: 300px) {
   .prev,
   .next,
   .text {
     font-size: 11px;
   }
-} */
+}
 
 /* 6section  */
 .section6 {
@@ -558,7 +563,7 @@ body {
   padding: 20px;
   display: flex;
   justify-content: space-around;
-  background-image: url("images/ასა.jpg");
+  background-image: url("images/2809296.jpg");
   background-size: cover;
   align-items: center;
 }
@@ -604,7 +609,7 @@ body {
 }
 
 .accordion-title::before {
-  content: "￬";
+  content: "⇩";
   font-size: 35px;
   position: absolute;
   top: 60%;
@@ -629,7 +634,7 @@ body {
 }
 
 .acordion-box.active .accordion-title::before {
-  content: "^";
+  content: "⇧";
   font-size: 35px;
   top: 50%;
   right: 5px;
@@ -776,21 +781,3 @@ body {
   font-weight: bold;
 }
 
-@media (max-width: 880px) {
-  .footer-distributed {
-    font: bold 14px sans-serif;
-  }
-
-  .footer-distributed .footer-left,
-  .footer-distributed .footer-center,
-  .footer-distributed .footer-right {
-    display: block;
-    width: 100%;
-    margin-bottom: 40px;
-    text-align: center;
-  }
-
-  .footer-distributed .footer-center i {
-    margin-left: 0;
-  }
-}

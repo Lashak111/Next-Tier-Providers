@@ -5,7 +5,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="//cdn.web-fonts.ge/fonts/bpg-arial-caps/css/bpg-arial-caps.min.css">
+    <link
+      rel="stylesheet"
+      href="//cdn.web-fonts.ge/fonts/bpg-arial-caps/css/bpg-arial-caps.min.css"
+    />
     <script
       src="https://kit.fontawesome.com/49244a576e.js"
       crossorigin="anonymous"
@@ -73,8 +76,7 @@
               <li><a class="nav-list" href="#footer"> Contact</a></li>
             </ul>
           </div>
-
-          <a class="Language-Ka" href="indexgeo.html"> KA</a>
+          <a class="Language" href="indexgeo.html"> GE</a>
         </nav>
         <div class="test">
           <div class="menu-btn">
@@ -84,7 +86,7 @@
       </header>
 
       <button class="scroll" id="Scrooltop">
-        <img class="scrollicon" src="images/scroll.png" alt="" />
+        <i class="fa-solid fa-arrow-up scrollicon"></i>
       </button>
       <div class="Slogan-box">
         <div class="Slogan">
@@ -214,12 +216,12 @@
 
     <!-- ----------------------------------------  5 section---------------------------------- -->
     <!-- slideer -->
-    <!-- <section class="section-5">
+    <section class="section-5">
       <div class="slideshow-container">
         <div class="mySlides fade">
           <div class="Slider-text">
             <p>
-              "Business and IT  are becoming inextricably interwoven. I don't
+              "Business and IT are becoming inextricably interwoven. I don't
               think anybody can talk meaningfully about one without talking
               about the other."
             </p>
@@ -285,11 +287,11 @@
         <span class="dot" onclick="currentSlide(4)"></span>
         <span class="dot" onclick="currentSlide(5)"></span>
       </div>
-    </section> -->
+    </section>
 
     <!-- -------------------------------------------6 section --------------------------------------------- -->
 
-    <section class="section6" id="sixth-section">
+    <!-- <section class="section6" id="sixth-section">
       <div class="left-box">
         <h2>Mission</h2>
         <p>
@@ -327,15 +329,10 @@
           alt=""
         />
       </div>
-    </section>
+    </section> -->
 
     <!-- 7 section -->
     <section class="section-7">
-      <!-- <img
-        src="https://img.freepik.com/free-photo/network-graphic-overlay-banner-background_53876-165250.jpg?w=740&t=st=1666125173~exp=1666125773~hmac=e1f3ba822310557c2100133637a94608a146510676d702ee1460b5b375e83279"
-        alt=""
-      /> -->
-
       <div class="accordion">
         <h2 class="questions">FAQ - Frequently Asked Questions</h2>
         <div class="acordion-box">
@@ -419,11 +416,8 @@
             ><i class="fa fa-facebook"></i
           ></a>
           <a href="https://twitter.com/?lang=en" target="_blank"
-            ><i class="fa fa-twitter"></i
-          ></a>
-          <a href="https://www.linkedin.com/" target="_blank"
-            ><i class="fa fa-linkedin"></i
-          ></a>
+            ><i class="fa-brands fa-instagram"></i>
+          </a>
         </div>
 
         <p class="footer-company-name">Next Tier Providers ©</p>
@@ -467,31 +461,32 @@
     <div id="fb-root"></div>
 
     <!-- Your საუბრის დანამატი code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
+    <div id="fb-customer-chat" class="fb-customerchat"></div>
 
     <script>
-      var chatbox = document.getElementById('fb-customer-chat');
+      var chatbox = document.getElementById("fb-customer-chat");
       chatbox.setAttribute("page_id", "110988478095976");
       chatbox.setAttribute("attribution", "biz_inbox");
     </script>
 
     <!-- Your SDK code -->
     <script>
-      window.fbAsyncInit = function() {
+      window.fbAsyncInit = function () {
         FB.init({
-          xfbml            : true,
-          version          : 'v15.0'
+          xfbml: true,
+          version: "v15.0",
         });
       };
 
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
+      (function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
         fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
+      })(document, "script", "facebook-jssdk");
     </script>
 
     <script src="script.js"></script>
