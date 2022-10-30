@@ -372,21 +372,22 @@ body {
 /* sliderr */
 .section-5 {
   height: 100vh;
-  margin-bottom: 50px;
+  background-color: #1d242b;
+ 
 }
 .mySlides {
   display: none;
 }
 
 /* Slideshow container */
-.slideshow-container {
-  width: 100%;
-  position: relative;
-  margin: 0 auto;
-}
+/* .slideshow-container { */
+  /* width: 100%; */
+  /* position: relative; */
+  /* margin: 0 auto; */
+/* } */
 
 /* Next & previous buttons */
-.prev,
+/* .prev,
 .next {
   cursor: pointer;
   position: absolute;
@@ -400,10 +401,10 @@ body {
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
-}
+} */
 
 /* Position the "next button" to the right */
-.next {
+/* .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
@@ -411,11 +412,11 @@ body {
 .prev:hover,
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
-}
+} */
 
 /* Caption text */
 
-.Slider-text {
+/* .Slider-text {
   padding: 8px 12px;
   position: absolute;
   top: 40%;
@@ -434,10 +435,10 @@ body {
   color: white;
   font-size: 30px;
   line-height: 1.5;
-}
+} */
 
 /* Fading animation */
-.fade {
+/* .fade {
   animation-name: fade;
   animation-duration: 1s;
 }
@@ -448,17 +449,17 @@ body {
   }
   to {
     opacity: 1;
-  }
-}
+  } */
+/* } */
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
+/* @media only screen and (max-width: 300px) {
   .prev,
   .next,
   .text {
     font-size: 11px;
   }
-}
+} */
 
 /* 6section  */
 .section6 {
@@ -558,7 +559,8 @@ body {
 .accordion {
   max-width: 600px;
   width: 100%;
-  /* margin: 0 auto; */
+  margin: 0 auto;
+  z-index: 1;
 }
 
 .acordion-box {
