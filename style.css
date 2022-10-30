@@ -168,7 +168,7 @@ html {
   font-family: "Lato", sans-serif;
 }
 
-
+/* */
 .Our-Services {
   position: absolute;
   border-radius: 50px;
@@ -303,7 +303,12 @@ html {
   font-size: 35px;
   font-weight: bold;
 }
-
+.hidden-span {
+  color: #1f97e7;
+  font-weight: bold;
+  display: none;
+  font-size: 21px;
+}
 .whyntp2 {
   color: white;
   font-size: 18px;
@@ -647,11 +652,11 @@ html {
   margin-top: 10px;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
-  padding: 55px 50px;
+  padding: 50px 50px;
 }
-/* 
+
 
 /* Footer left */
 
@@ -686,7 +691,7 @@ html {
   color: #1d242b;
 }
 
-.footer-distributed .footer-icons a {
+ .footer-icons a {
   display: inline-block;
   width: 35px;
   height: 35px;
@@ -719,26 +724,25 @@ html {
   border-style: solid;
   text-align: center;
   line-height: 42px;
-  margin: 10px 15px;
+  margin : 10px 15px;
   vertical-align: middle;
 }
 .footer-center i:hover {
   background-color: #39a6f0;
 }
-
-.footer-distributed .footer-center i.fa-envelope {
+ .footer-center i.fa-envelope {
   font-size: 17px;
   line-height: 38px;
 }
 
-.footer-distributed .footer-center p {
+ .footer-center p {
   display: inline-block;
   color: #1d242b;
   font-weight: 400;
   vertical-align: middle;
 }
 
-.footer-distributed .footer-center span {
+ .footer-center span {
   display: block;
   font-weight: normal;
   font-size: 20px;
@@ -746,8 +750,7 @@ html {
 }
 
 .footer-center {
-  font-size: 21px;
-  font-weight: bold;
+  margin: 15px;
 }
 
 .E-Mail {
@@ -762,9 +765,6 @@ html {
   color: #1d242b;
   font-size: 25px;
   font-weight: bold;
-}
-.footer-distributed .footer-right {
-  width: 20%;
 }
 
 .footer-right li {
