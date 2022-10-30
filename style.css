@@ -126,6 +126,14 @@ body {
   display: block !important;
 }
 
+.Language-Ka {
+  color: white;
+  font-weight: bold;
+}
+.Language-En {
+  color: white;
+  font-weight: bold;
+}
 /* 1 section */
 .scroll {
   position: fixed;
@@ -373,7 +381,6 @@ body {
 .section-5 {
   height: 100vh;
   background-color: #1d242b;
- 
 }
 .mySlides {
   display: none;
@@ -381,9 +388,9 @@ body {
 
 /* Slideshow container */
 /* .slideshow-container { */
-  /* width: 100%; */
-  /* position: relative; */
-  /* margin: 0 auto; */
+/* width: 100%; */
+/* position: relative; */
+/* margin: 0 auto; */
 /* } */
 
 /* Next & previous buttons */
@@ -548,7 +555,7 @@ body {
 .section-7 {
   margin-bottom: 80px;
   height: 100vh;
-  padding:20px;
+  padding: 20px;
   display: flex;
   justify-content: space-around;
   background-image: url("images/ასა.jpg");
