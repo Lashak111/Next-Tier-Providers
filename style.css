@@ -262,6 +262,7 @@ html {
   padding: 30px;
   align-items: center;
   margin-bottom: 80px;
+  /* flex-direction: column; */
 }
 
 .wyntp-title {
@@ -295,12 +296,7 @@ html {
   font-size: 35px;
   font-weight: bold;
 }
-.hidden-span {
-  color: #1f97e7;
-  font-weight: bold;
-  display: none;
-  font-size: 21px;
-}
+
 .whyntp2 {
   color: white;
   font-size: 18px;
@@ -314,7 +310,7 @@ html {
 }
 
 /*4 section  */
-/* desktop version  */
+
 .Fourth-section {
   height: 100vh;
   display: flex;
@@ -326,26 +322,18 @@ html {
 
 .Fourth-section h2 {
   font-size: 50px;
-  margin-bottom: 25px;
+  margin-bottom: 80px;
 }
 
 .whatwedo-container {
   display: flex;
   justify-content: center;
-  flex-direction: column;
   align-items: center;
+  flex-wrap: wrap;
+  max-width: 1170px;
   margin: 0 auto;
 }
-.box-wrapper {
-  max-width: 1000px;
-  width: 100%;
-  display: flex;
-}
-.box-wrapper1 {
-  max-width: 1000px;
-  width: 100%;
-  display: flex;
-}
+
 .box1 {
   display: flex;
   flex-direction: column;
