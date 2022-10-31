@@ -54,6 +54,25 @@
     display: none !important;
   }
 
+  .left-box p {
+    font-size: 19px;
+    line-height: 0.95;
+    color: #191919;
+    margin-top: 16px;
+  }
+
+  .middle-box p {
+    font-size: 19px;
+    line-height: 1.1;
+    color: #191919;
+    margin-top: 20px;
+  }
+  .right-box p {
+    font-size: 19px;
+    line-height: 1.1;
+    color: #191919;
+    margin-top: 20px;
+  }
   .accordion-title::before {
     font-size: 20px;
     right: 0px;
@@ -64,12 +83,6 @@
   }
   .accordion-content {
     font-size: 16px;
-  }
-  .section-7 img {
-    width: 350px;
-    height: 350px;
-    border-radius: 50%;
-    margin: 20px;
   }
 }
 
@@ -135,27 +148,35 @@
     color: white;
     font-size: 80px;
   }
-  .Slider-text span {
-    color: white;
-    font-size: 20px;
-    float: right;
-    margin-right: 35px;
+
+  .left-box p {
+    font-size: 17px;
+    line-height: 0.9;
+    color: #191919;
+    margin-top: 13px;
   }
-  .Slider-text p {
-    font-weight: bold;
-    color: white;
-    font-size: 25px;
-    line-height: 1.4;
+
+  .middle-box p {
+    font-size: 17px;
+    line-height: 0.9;
+    color: #191919;
+    margin-top: 13px;
+  }
+  .right-box p {
+    font-size: 17px;
+    line-height: 0.9;
+    color: #191919;
+    margin-top: 13px;
   }
 }
 
 @media (max-width: 825px) {
   /* footer responsive  */
   .footer-right h3 {
-    font-size: 18px;
+    font-size: 20px;
   }
   .footer-right a {
-    font-size: 16px;
+    font-size: 18px;
   }
   .footer-right a:hover {
     font-size: 18px;
@@ -167,7 +188,6 @@
   }
   .footer-center {
     margin-right: 10px;
-    /* background-color: blue; */
   }
   .footer-center span {
     font-size: 15px;
@@ -181,25 +201,6 @@
     font-size: 16px;
     font-weight: normal;
     margin-top: 50px;
-  }
-}
-
-@media (max-width: 803px) {
-  .aboutus-container h2 {
-    font-size: 35px;
-    font-weight: 300;
-  }
-  .Slider-text span {
-    color: white;
-    font-size: 18px;
-    float: right;
-    margin-right: 35px;
-  }
-  .Slider-text p {
-    font-weight: bold;
-    color: white;
-    font-size: 20px;
-    line-height: 1.4;
   }
 }
 
@@ -218,7 +219,6 @@
     align-items: center;
     text-align: center;
   }
-
   .aboutus-container {
     max-width: 500px;
     width: 100%;
@@ -262,6 +262,11 @@
     height: 100px;
     margin-bottom: 15px;
   }
+
+  .Footer-Logo {
+    width: 100px;
+    height: 100px;
+  }
 }
 
 @media (max-width: 698px) {
@@ -271,16 +276,7 @@
   .Slogan {
     font-size: 65px;
   }
-  /* footer responsive  */
-  .footer-distributed {
-    text-align: center;
-    align-items: center;
-  }
-  .footer-center {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+
   .whyntp2 {
     display: none;
   }
@@ -306,3 +302,105 @@
     margin-bottom: 15px;
   }
 }
+
+@media (max-width: 685px) {
+  .section6 {
+    margin-bottom: 200px;
+    margin-top: 200px;
+  }
+  .sec6-box-wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .left-box {
+    max-width: 400px;
+    width: 100%;
+    height: 210px;
+  }
+  .middle-box {
+    max-width: 400px;
+    width: 100%;
+    height: 210px;
+  }
+  .right-box {
+    max-width: 400px;
+    width: 100%;
+    height: 210px;
+  }
+
+  .left-box p {
+    font-size: 16px;
+    line-height: 1;
+    color: #191919;
+    margin-top: 5px;
+  }
+  .left-box h2 {
+    font-size: 40px;
+    color: #151616;
+  }
+  .middle-box p {
+    font-size: 16px;
+    line-height: 1;
+    color: #191919;
+    margin-top: 5px;
+  }
+  .middle-box h2 {
+    font-size: 40px;
+    color: #151616;
+  }
+  .right-box p {
+    font-size: 16px;
+    line-height: 1;
+    color: #191919;
+    margin-top: 5px;
+  }
+  .right-box h2 {
+    font-size: 40px;
+    color: #151616;
+  }
+  .section6-image {
+    display: none;
+  }
+}
+
+@media (max-width: 645px) {
+  .Slogan-box {
+    margin-left: 10px;
+  }
+  .Slogan {
+    font-size: 60px;
+  }
+  .section-5 {
+    display: none;
+  }
+  .section6 {
+    margin-top: 5px;
+  }
+  .footer-distributed {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .Footer-Logo {
+    width: 140px;
+    height: 140px;
+  }
+  .footer-left h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 35px;
+    color: #1d242b;
+  }
+  .footer-icons-box i {
+    margin-right: 15px;
+  }
+  .footer-center {
+    margin: 10px;
+  }
+ 
+}
+
+
+

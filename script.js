@@ -54,7 +54,7 @@ if (document.getElementById("slider--text")) {
       "<h2>The technology you use impresses no one. The experience you create with IT is everything. <small>- Sean Gerety (UX Expert)</small></h2>",
       "<h2>Technology is best when IT brings people together. <small>Matthew Mullenweg (Founder & CEO - CBBQTT, Lead Developer of WordPress)</small></h2>",
       "<h2>Even a small amount of unplanned downtime can affect a company’s profitability and reputation. <small>― Ratmir Timashev (CEO of Veeam)</small></h2>",
-      "<h2>In any complicated problem, you have to look at the details, and you have to dissect it and do some analysis<small>In any complicated problem, you have to look at the details, and you have to dissect it and do some analysis</small> </h2>",
+      "<h2>In any complicated problem, you have to look at the details, and you have to dissect it and do some analysis<small></small> </h2>",
 
   ];
 
