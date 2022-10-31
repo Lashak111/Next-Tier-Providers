@@ -47,35 +47,26 @@ scroll.addEventListener("click", () => {
 
 // slider
 
- let slideIndex = 1;
- showSlides(slideIndex);
 
- function plusSlides(n) {
-   showSlides((slideIndex += n));
- }
+if (document.getElementById("slider--text")) {
+  let slides = [
+      "<h2>Business and IT are becoming inextricably interwoven. I don't think anybody can talk meaningfully about one without talking about the other. <small>Bill Gates</small> </h2>",
+      "<h2>The technology you use impresses no one. The experience you create with IT is everything. <small>- Sean Gerety (UX Expert)</small></h2>",
+      "<h2>Technology is best when IT brings people together. <small>Matthew Mullenweg (Founder & CEO - CBBQTT, Lead Developer of WordPress)</small></h2>",
+      "<h2>Even a small amount of unplanned downtime can affect a company’s profitability and reputation. <small>― Ratmir Timashev (CEO of Veeam)</small></h2>",
+      "<h2>In any complicated problem, you have to look at the details, and you have to dissect it and do some analysis<small>In any complicated problem, you have to look at the details, and you have to dissect it and do some analysis</small> </h2>",
 
- function currentSlide(n) {
-   showSlides((slideIndex = n));
- }
+  ];
 
- function showSlides(n) {
-   let i;
-  let slides = document.getElementsByClassName("mySlides");
-   let dots = document.getElementsByClassName("dot");
-   if (n > slides.length) {
-     slideIndex = 1;
-   }
-  if (n < 1) {
-    slideIndex = slides.length;
-   }
-   for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-   }
-   for (i = 0; i < dots.length; i++) {
-     dots[i].className = dots[i].className.replace(" active", "");
-   } 
-   slides[slideIndex - 1].style.display = "block";
-  dots[slideIndex - 1].className += " active"
- }
+  let i = 0;
 
- 
+  const slider = () => {
+      document.getElementById("slider--text").innerHTML = slides[i];
+      document.getElementById("slider--text").classList.add('fade-in');
+
+      (i < slides.length - 1) ? i++ : i = 0;
+  };
+
+  slider(); // Start slider immediately
+  setInterval(slider, 8000); // Slide every 4 seconds
+}
