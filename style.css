@@ -130,7 +130,6 @@ html {
 
 /* 1 section */
 
-/* sadasdasdasdasda */
 .scroll {
   position: fixed;
   left: 25px;
@@ -148,6 +147,7 @@ html {
   font-size: 25px;
   margin: 0 auto;
 }
+
 .First-section {
   margin: 0 auto;
   margin-bottom: 80px;
@@ -171,7 +171,7 @@ html {
   font-family: "Lato", sans-serif;
 }
 
-/* */
+
 .Our-Services {
   position: absolute;
   border-radius: 50px;
@@ -253,10 +253,17 @@ html {
   justify-content: space-around;
   padding: 30px;
   align-items: center;
-  margin-bottom: 80px;
-  /* flex-direction: column; */
+  margin-bottom:100px;
+
 }
 
+.wyntp-title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin-left: 20px;
+}
 .wyntp-title {
   display: flex;
   justify-content: center;
@@ -313,7 +320,7 @@ html {
   flex-direction: column;
   padding: 30px;
   text-align: center;
-  margin-bottom: 80px;
+  margin-bottom:180px;
 }
 
 .Fourth-section h2 {
@@ -369,7 +376,7 @@ html {
   background-size: cover;
   height: 100vh;
   text-align: center;
-  margin-bottom: 80px;
+  margin-bottom: 150px;
 }
 
 .section-5 h2 {
@@ -424,12 +431,13 @@ html {
   justify-content: center;
   margin: 0;
   overflow-x: hidden;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 
  .section6 h1 {
   font-weight: 300;
   font-size: 65px;
+  padding: 10px;
 
 }
 
