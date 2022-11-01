@@ -426,6 +426,11 @@ html {
   padding: 15px;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+.section6 h2 {
+  font-size: 80px;
+  margin-bottom: 20px ;
 }
 .sec6-box-wrapper {
   height: 100vh;
@@ -629,6 +634,7 @@ html {
 .footer-left {
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 .Footer-Logo {
   margin: 0 auto;
