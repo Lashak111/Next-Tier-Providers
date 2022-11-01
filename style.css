@@ -211,16 +211,6 @@ html {
 .aboutus-container h2 {
   font-weight: 500;
   font-size: 45px;
-  text-transform: uppercase;
-  background: linear-gradient( #191919, #191919);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-repeat: no-repeat;
-  background-size: 90%;
-  animation: shine 4s linear;
-  position: relative;
-  animation-iteration-count: 1;
 }
 
 @keyframes shine {
@@ -248,7 +238,7 @@ html {
 }
 
 .BG-image {
-  min-width: 500px;
+  min-width: 600px;
   width: 100%;
   border-radius: 10px;
   border: none;
@@ -278,7 +268,11 @@ html {
   color: white;
   font-size: 90px;
 }
-
+.hiddenATag {
+  display: none;
+  color: #1f97e7;
+  font-size: 23px;
+}
 .whyntp-container {
   max-width: 700px;
   width: 100%;
