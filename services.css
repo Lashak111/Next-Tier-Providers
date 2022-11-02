@@ -8,8 +8,7 @@
 
 
 
-
-
+/* services  */
 .Section2-services{
   display: flex;
   flex-direction: column;
@@ -17,11 +16,10 @@
   justify-content: center;
   margin: 0;
   overflow-x: hidden;
-  margin-bottom: 80px;
 }
 
-
 .sec2-box {
+  background-color: white;
   color:black;
   display: flex;
   align-items: center;
@@ -49,20 +47,23 @@
   line-height: 1.2;
   padding: 10px;
 }
+
+.sec2-box span {
+  font-weight: bold;
+}
 .sec2-box h2 {
   font-size: 55px;
 }
+.Auditspn {
+  font-style: italic;
+  font-size: 21px;
+  margin-top: 15px;
 
-
-/* section2  */
-
-
-
-
+}
 
 /* key frame for the bounceIn animation */
 
-/* @keyframes bounceIn {
+ @keyframes bounceIn {
   5% {
     transform: scale(0.1);
     opacity: 0;
@@ -82,4 +83,5 @@
   animation: bounceIn 3s;
 }
 
- */
+
+
