@@ -241,6 +241,7 @@ html {
   width: 100%;
   border-radius: 10px;
   border: none;
+  opacity: 0.9;
 }
 
 /* 3 section */
@@ -323,7 +324,7 @@ html {
 
 .Fourth-section h2 {
   font-size: 50px;
-  margin-bottom: 80px;
+  margin-bottom: 20px;
 }
 
 .whatwedo-container {
@@ -604,6 +605,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .footer-icons-box i {
@@ -627,7 +629,6 @@ html {
 .footer-company-name {
   color: #191919;
   font-size: 18px;
-  font-weight: normal;
   margin-top: 40px;
 }
 
