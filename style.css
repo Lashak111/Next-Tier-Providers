@@ -150,7 +150,7 @@ html {
 
 .First-section {
   margin: 0 auto;
-  margin-bottom: 80px;
+  margin-bottom: 150px;
   width: 100%;
   height: 100vh;
   background-size: cover;
@@ -190,13 +190,12 @@ html {
 
 /* second section  */
 .Second-section {
-  margin: 0 auto;
-  margin-bottom: 80px;
+  margin-bottom: 100px;
   height: 100vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  text-align: center;
+  padding: 25px;
 }
 
 .aboutus-container {
@@ -204,44 +203,66 @@ html {
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  margin: 20px;
 }
 
 .aboutus-container h2 {
-  font-weight: 500;
   font-size: 45px;
-}
-
-@keyframes shine {
-  0% {
-    background-position-x: -500%;
-  }
-  100% {
-    background-position-x: 500%;
-  }
+  text-shadow: 0 0 3px #141414d5;
+  margin-bottom: 10px;
 }
 
 .aboutus-container h4 {
-  font-size: 28px;
-  margin-top: 20px;
+  font-size: 24px;
   margin-bottom: 20px;
   color: #191919;
-  line-height: 1.3;
+  line-height: 1.1;
 }
 
 .aboutus-container p {
-  font-size: 21px;
-  line-height: 1.6;
-  font-family: "Lato", sans-serif;
+  font-size: 22px;
+  line-height: 1.2;
   color: #191919;
 }
-
 .BG-image {
-  min-width: 600px;
-  width: 100%;
-  border-radius: 10px;
+  margin-top: 30px;
+  width: 350px;
+  height: 250px;
   border: none;
-  opacity: 0.9;
+  border-radius: 50%;
+}
+
+/* why ntp  */
+.whyntp-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+  width: 100%;
+  height: 400px;
+  margin-top: 50px;
+}
+.whyntp-container h2 {
+  font-size: 45px;
+  text-shadow: 0 0 3px #141414d5;
+}
+.whyntp-container p {
+  font-size: 21px;
+  line-height: 1.1;
+  max-width: 500px;
+  padding: 15px;
+  /* text-align: center; */
+}
+.whyntp-button {
+  border-radius: 50px;
+  border-style: none;
+  margin-top: 10px;
+  font-size: 25px;
+  height: 60px;
+  width: 180px;
+  padding: 8px;
+  color: white;
+  background-color: #4bacec;
 }
 
 /* 3 section */
@@ -251,64 +272,33 @@ html {
   height: 100vh;
   display: flex;
   justify-content: space-around;
-  padding: 30px;
+  padding: 25px;
   align-items: center;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
-.wyntp-title {
+/* how we do it  */
+.How-we-do {
   display: flex;
-  justify-content: center;
-  text-align: center;
   flex-direction: column;
-  margin-left: 20px;
+  height: 500px;
 }
-.wyntp-title {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
-  margin-left: 20px;
-}
-.wyntp-title h2 {
+.How-we-do h2 {
+  font-size: 70px;
   color: white;
-  font-size: 90px;
+  padding: 25px;
 }
-.hiddenATag {
-  display: none;
-  color: #1f97e7;
-  font-size: 23px;
-}
-.whyntp-container {
-  max-width: 700px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  margin-right: 30px;
-}
-
-.whyntp {
+.How-we-do h4 {
   color: white;
-  font-size: 18px;
-  margin-right: 50px;
-  margin-top: 60px;
+  font-size: 28px;
+  text-shadow: 2px 2px 8px #f8f8f8;
+}
+.How-we-do p {
+  color: white;
+  font-size: 22px;
   line-height: 1.3;
-}
-.whyntp span {
-  font-size: 35px;
-  font-weight: bold;
-}
-
-.whyntp2 {
-  color: white;
-  font-size: 18px;
-  line-height: 1.3;
-  margin-top: 20px;
-  margin-right: 50px;
-}
-.whyntp2 a {
-  color: #1f97e7;
-  font-weight: bold;
+  max-width: 550px;
+  padding: 15px;
 }
 
 /*4 section  */
@@ -319,12 +309,13 @@ html {
   flex-direction: column;
   padding: 30px;
   text-align: center;
-  margin-bottom: 180px;
+  margin-bottom: 80px;
 }
 
 .Fourth-section h2 {
   font-size: 50px;
   margin-bottom: 20px;
+  text-shadow: 0 0 3px #141414d5;
 }
 
 .whatwedo-container {
@@ -370,15 +361,97 @@ html {
 }
 
 /* 5 section */
-.section-5 {
+.slidercntr {
+  height: 100vh;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.radio {
+  display: none;
+}
+.container {
+  position: relative;
+  max-width: 1000px;
+  margin: 5% auto;
+}
+.slider {
+  width: 100%;
+  position: absolute;
+  height: 0;
+  padding-top: 56.25%;
+  /* background-color: #141414; */
+  overflow: hidden;
+  border: solid 1px #2e2e2e;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
+}
+
+.slide {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  /* opacity: 0; */
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1.1);
+  transition: 1.3s;
+}
+
+.caption {
+  position: absolute;
+  width: 100%;
+  left: 5%;
+  top: -100%;
+  color: #1f97e7;
+  font-size: 50px;
+  /* letter-spacing: -5px; */
+  text-transform: uppercase;
+  line-height: 50px;
+  transition: 0.9s;
+}
+
+.caption span {
+  display: block;
+  text-transform: initial;
+  font-size: 25px;
+  font-weight: 300;
+  color: #1d242b;
+  line-height: 15px;
+}
+.dots {
+  width: 100%;
+  position: absolute;
+  bottom: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dots label {
+  width: 15px;
+  height: 15px;
+  background-color: #080808;
+  margin: 0 10px;
+  border-radius: 50%;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+/* .section-5 {
   background-image: url("images/6\ section.jpg");
   background-size: cover;
   height: 100vh;
   text-align: center;
-  margin: 0 auto;
-}
+} */
 
-.section-5 h2 {
+/* .section-5 h2 {
   text-align: center;
   font-size: 40px;
   max-width: 1000px;
@@ -421,7 +494,7 @@ html {
     opacity: 0;
     transform: rotate3d(-2, -2, 0, 48deg);
   }
-}
+} */
 
 /* 6section  */
 .section6 {
@@ -439,10 +512,11 @@ html {
   font-weight: 300;
   font-size: 65px;
   padding: 15px;
+  text-shadow: 0 0 3px #141414d5;
 }
 
 .sec6-box {
-  background-color: steelblue;
+  background-color: rgb(117, 179, 230);
   color: #fff;
   display: flex;
   align-items: center;
@@ -452,7 +526,7 @@ html {
   width: 100%;
   height: 400px;
   margin: 10px;
-  padding: 5px;
+  padding: 10px;
   border-radius: 10px;
   box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
   transform: translateX(400%);
