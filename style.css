@@ -161,7 +161,7 @@ html {
   position: absolute;
   margin-left: 25px;
   top: 60%;
-  left: 25%;
+  left: 30%;
   transform: translateY(-50%) translateX(-50%);
   max-width: 700px;
 }
