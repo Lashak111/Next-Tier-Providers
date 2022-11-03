@@ -224,13 +224,31 @@ html {
   line-height: 1.2;
   color: #191919;
 }
+.BG-image-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.BG-image-box> div {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
 .BG-image {
+  height: 100%;
+  width: auto;
+}
+/* .BG-image {
   margin-top: 30px;
   width: 350px;
   height: 350px;
   border: none;
   border-radius: 50%;
-}
+} */
 
 /* why ntp  */
 .whyntp-container {
