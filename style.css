@@ -167,7 +167,7 @@ html {
 }
 .Slogan {
   color: white;
-  font-size: 85px; 
+  font-size: 85px;
   text-shadow: 2px 2px 5px #f8f8f8;
 }
 
@@ -228,10 +228,10 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
-.BG-image-box> div {
+.BG-image-box > div {
   width: 300px;
   height: 300px;
   overflow: hidden;
@@ -381,6 +381,7 @@ html {
 /* 5 section */
 .slidercntr {
   height: 100vh;
+  margin-bottom: 180px;
 }
 .radio {
   display: none;
@@ -419,7 +420,7 @@ html {
 .caption {
   position: absolute;
   width: 100%;
-  left:15%;
+  left: 15%;
   top: 50%;
   color: white;
   transition: 0.9s;
@@ -427,15 +428,15 @@ html {
 .caption p {
   color: white;
   font-size: 35px;
- max-width: 1000px;
- text-shadow: 1px 1px 3px #f8f8f8;
- text-decoration: uppercase;
+  max-width: 1000px;
+  text-shadow: 1px 1px 3px #f8f8f8;
+  text-decoration: uppercase;
 }
 
 .caption span {
   display: block;
   text-transform: initial;
-  font-size:30px;
+  font-size: 30px;
   color: #ffffff;
   max-width: 1000px;
   width: 100%;
@@ -476,7 +477,7 @@ html {
 #radio-4:checked ~ #slide-4 img,
 #radio-5:checked ~ #slide-5 img {
   transform: scale(1);
-} 
+}
 
 #radio-1:checked ~ #slide-1 .caption,
 #radio-2:checked ~ #slide-2 .caption,
@@ -485,7 +486,6 @@ html {
 #radio-5:checked ~ #slide-5 .caption {
   opacity: 1;
   top: 50%;
-
 }
 
 #radio-1:checked ~ .dots #label-1,
@@ -756,7 +756,7 @@ html {
 .footer-company-name {
   color: #191919;
   font-size: 18px;
-  margin-top:30px;
+  margin-top: 30px;
 }
 
 /* Footer Center */
@@ -774,7 +774,6 @@ html {
   line-height: 42px;
   margin: 20px 15px;
   vertical-align: middle;
- 
 }
 .footer-center i:hover {
   background-color: #39a6f0;
@@ -791,7 +790,9 @@ html {
   font-weight: 400;
   vertical-align: middle;
 }
-
+.location {
+  color: #151616;
+}
 .footer-center span {
   display: block;
   font-weight: normal;
@@ -805,7 +806,6 @@ html {
 .phone {
   color: #151616;
   font-size: 25px;
-  
 }
 
 .E-Mail {
@@ -815,7 +815,6 @@ html {
 .E-Mail:hover {
   color: #1f97e7;
 }
-
 
 /* Footer Right */
 .footer-right h3 {
