@@ -195,7 +195,7 @@ html {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 25px;
+  padding: 15px;
 }
 
 .aboutus-container {
@@ -203,7 +203,7 @@ html {
   width: 100%;
   display: flex;
   flex-direction: column;
-  margin: 20px;
+  margin: 10px;
 }
 
 .aboutus-container h2 {
@@ -228,12 +228,12 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .BG-image-box > div {
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   overflow: hidden;
   border-radius: 50%;
 }
@@ -242,13 +242,6 @@ html {
   height: 100%;
   width: auto;
 }
-/* .BG-image {
-  margin-top: 30px;
-  width: 350px;
-  height: 350px;
-  border: none;
-  border-radius: 50%;
-} */
 
 /* why ntp  */
 .whyntp-container {
@@ -269,7 +262,6 @@ html {
   line-height: 1.1;
   max-width: 500px;
   padding: 15px;
-  /* text-align: center; */
 }
 .whyntp-button {
   border-radius: 50px;
@@ -282,6 +274,12 @@ html {
   color: white;
   background-color: #4bacec;
 }
+.whyntp-button:hover {
+  background-color: #1f97e7;
+  text-shadow: #c9c1bf;
+}
+
+
 
 /* 3 section */
 .Third-section {
@@ -308,7 +306,7 @@ html {
 }
 .How-we-do h4 {
   color: white;
-  font-size: 28px;
+  font-size: 25px;
   text-shadow: 2px 2px 8px #f8f8f8;
 }
 .How-we-do p {
@@ -611,10 +609,10 @@ html {
 .section-7 {
   margin-bottom: 90px;
   height: 100vh;
-  padding: 20px;
+  padding: 50px;
   display: flex;
-  justify-content: space-around;
-  background-image: url("images/2809296.jpg");
+  justify-content: space-between;
+  /* background-image: url("images/2809296.jpg"); */
   background-size: cover;
   align-items: center;
 }
@@ -629,15 +627,15 @@ html {
 .acordion-box {
   border-width: 1px;
   border-style: solid;
-  border-color: #37393a48;
+  border-color: white;
+  border-bottom-color: #3f3f3f;
   margin: 15px;
   padding: 10px;
-  box-shadow: 0 0 3px #c9c1bf, 0 0 5px white;
 }
 
 .questions::after {
   content: "";
-  max-width: 550px;
+  max-width: 450px;
   width: 100%;
   height: 2px;
   background-color: #1f97e7;
@@ -648,7 +646,8 @@ html {
 .questions {
   font-size: 30px;
   margin-bottom: 25px;
-  color: aliceblue;
+  /* color: white; */
+  color: black;
 }
 
 .accordion-title {
@@ -657,6 +656,7 @@ html {
   padding: 8px;
   font-size: 16px;
   color: white;
+  color: black;
 }
 
 .accordion-title::before {
@@ -675,7 +675,7 @@ html {
   width: 100%;
   height: 0;
   overflow: hidden;
-  color: white;
+  /* color: white; */
 }
 
 .acordion-box.active .accordion-content {
@@ -695,7 +695,6 @@ html {
 
 /* footer */
 .footer-distributed {
-  /* margin-top: 10px; */
   display: flex;
   justify-content: space-around;
   padding: 50px 50px;
@@ -760,6 +759,9 @@ html {
 }
 
 /* Footer Center */
+.footer-center {
+  margin: 15px;
+}
 
 .footer-center i {
   color: #191919c9;
@@ -779,41 +781,39 @@ html {
   background-color: #39a6f0;
 }
 
-.footer-center i.fa-envelope {
-  font-size: 20px;
-  line-height: 38px;
-}
-
-.footer-center p {
-  display: inline-block;
-  color: #1d242b;
-  font-weight: 400;
-  vertical-align: middle;
+.Location-footer {
+  display: flex;
+  align-items: center;
 }
 .location {
   color: #151616;
 }
-.footer-center span {
-  display: block;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 2;
-}
-
-.footer-center {
-  margin: 15px;
-}
-.phone {
-  color: #151616;
+.Location-footer span {
   font-size: 25px;
 }
+.Location-footer span:hover {
+  color: #39a6f0;
+}
 
+.Phone-footer {
+  display: flex;
+  align-items: center;
+}
+
+.phone {
+  color: #151616;
+  font-size: 22px;
+}
+.phone:hover {
+  color: #39a6f0;
+}
+.Email-footer {
+  display: flex;
+  align-items: center;
+}
 .E-Mail {
   color: #151616;
   font-size: 25px;
-}
-.E-Mail:hover {
-  color: #1f97e7;
 }
 
 /* Footer Right */
