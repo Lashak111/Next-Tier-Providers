@@ -190,7 +190,7 @@ html {
 
 /* second section  */
 .Second-section {
-  margin-bottom: 100px;
+  margin-bottom: 150px;
   height: 100vh;
   display: flex;
   justify-content: space-around;
@@ -209,33 +209,31 @@ html {
 .aboutus-container h2 {
   font-size: 45px;
   text-shadow: 0 0 3px #141414d5;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .aboutus-container h4 {
   font-size: 24px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   color: #191919;
   line-height: 1.1;
 }
 
 .aboutus-container p {
   font-size: 22px;
-  line-height: 1.2;
+  line-height: 1.1;
   color: #191919;
 }
 .BG-image-box {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 10px;
+  margin-top: 8px;
 }
 
 .BG-image-box > div {
   width: 350px;
   height: 350px;
-  overflow: hidden;
-  border-radius: 50%;
 }
 
 .BG-image {
@@ -250,7 +248,6 @@ html {
   align-items: center;
   max-width: 500px;
   width: 100%;
-  height: 400px;
   margin-top: 50px;
 }
 .whyntp-container h2 {
@@ -261,14 +258,14 @@ html {
   font-size: 21px;
   line-height: 1.1;
   max-width: 500px;
-  padding: 15px;
+  padding: 10px;
 }
 .whyntp-button {
-  border-radius: 50px;
+  border-radius: 40px;
   border-style: none;
   margin-top: 10px;
-  font-size: 21px;
-  height: 60px;
+  font-size: 20px;
+  height: 50px;
   width: 180px;
   padding: 8px;
   color: white;
@@ -279,18 +276,32 @@ html {
   text-shadow: #c9c1bf;
 }
 
-
-
 /* 3 section */
 .Third-section {
-  background-image: url("images/2809296.jpg");
-  background-size: cover;
+  /* background-image: url("images/2809296.jpg"); */
+  /* background-size: cover; */
   height: 100vh;
   display: flex;
   justify-content: space-around;
   padding: 25px;
   align-items: center;
   margin-bottom: 80px;
+}
+.Third-image-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Third-image-box > div {
+  max-width: 450px;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.sec3-image {
+  height: 100%;
+  width: auto;
 }
 
 /* how we do it  */
@@ -302,15 +313,19 @@ html {
 .How-we-do h2 {
   font-size: 70px;
   color: white;
+  color: black;
   padding: 25px;
+  text-shadow: 0 0 3px #141414d5;
 }
 .How-we-do h4 {
   color: white;
+  color: black;
   font-size: 25px;
   text-shadow: 2px 2px 8px #f8f8f8;
 }
 .How-we-do p {
   color: white;
+  color: black;
   font-size: 22px;
   line-height: 1.3;
   max-width: 550px;
@@ -611,10 +626,26 @@ html {
   height: 100vh;
   padding: 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   /* background-image: url("images/2809296.jpg"); */
   background-size: cover;
   align-items: center;
+}
+.FAQ-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.FAQ-image-container > div {
+  max-width: 450px;
+  width: 100%;
+  height: 450px;
+  overflow: hidden;
+}
+
+.Faq-image {
+  height: 100%;
+  width: auto;
 }
 
 .accordion {
@@ -628,7 +659,7 @@ html {
   border-width: 1px;
   border-style: solid;
   border-color: white;
-  border-bottom-color: #3f3f3f;
+  border-bottom-color: grey;
   margin: 15px;
   padding: 10px;
 }
@@ -661,7 +692,7 @@ html {
 
 .accordion-title::before {
   content: "⇩";
-  font-size: 30px;
+  font-size: 25px;
   position: absolute;
   top: 50%;
   right: 0px;
@@ -686,7 +717,7 @@ html {
 
 .acordion-box.active .accordion-title::before {
   content: "⇧";
-  font-size: 30px;
+  font-size: 25px;
   top: 50%;
   right: 5px;
   transform: translateY(-50%);

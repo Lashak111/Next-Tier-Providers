@@ -134,7 +134,7 @@
   .Slogan {
     font-size: 75px;
   }
-  .Second-section {
+  /* .Second-section {
     margin-bottom: 250px;
     flex-direction: column;
     align-items: center;
@@ -149,7 +149,7 @@
 
   .BG-image {
     display: none;
-  }
+  } */
 
   .Fourth-section {
     padding: 5px;
