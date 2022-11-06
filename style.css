@@ -2,6 +2,9 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  font-family: 'Nunito', sans-serif;
+}
 /* header */
 .Header {
   width: 100%;
@@ -14,7 +17,7 @@ html {
 
 .Logo {
   width: 85px;
-  height: 75px;
+  height: 85px;
   margin-left: 10%;
 }
 .navigation {
@@ -168,7 +171,6 @@ html {
 .Slogan {
   color: white;
   font-size: 85px;
-  text-shadow: 2px 2px 5px #f8f8f8;
 }
 
 .Our-Services {
@@ -401,13 +403,13 @@ html {
 }
 .container {
   position: relative;
-  max-width: 1500px;
+  max-width: 2000px;
+  width: 100%;
   margin: 0 auto;
 }
 .slider {
   width: 100%;
   position: absolute;
-  /* height: 80vh; */
   padding-top: 56.25%;
   overflow: hidden;
   border: solid 1px #2e2e2e;
@@ -790,9 +792,6 @@ html {
 }
 
 /* Footer Center */
-.footer-center {
-  margin: 15px;
-}
 
 .footer-center i {
   color: #191919c9;
@@ -820,7 +819,7 @@ html {
   color: #151616;
 }
 .Location-footer span {
-  font-size: 25px;
+  font-size: 22px;
 }
 .Location-footer span:hover {
   color: #39a6f0;
