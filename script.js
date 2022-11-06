@@ -35,6 +35,7 @@ for (let item of accordion) {
     this.classList.toggle("active");
   });
 }
+
 // scroll
 let scroll = document.getElementById("Scrooltop");
 
