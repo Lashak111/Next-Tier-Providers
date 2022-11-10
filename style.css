@@ -429,7 +429,7 @@ body {
 .caption {
   position: absolute;
   top: 45%;
-  left: 25%;
+  left: 15%;
   color: white;
   transition: 0.9s;
 }
