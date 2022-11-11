@@ -36,7 +36,7 @@ for (let item of accordion) {
   });
 }
 
-// scroll
+// scroll top
 let scroll = document.getElementById("Scrooltop");
 
 scroll.addEventListener("click", () => {
