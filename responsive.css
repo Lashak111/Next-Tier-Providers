@@ -67,6 +67,7 @@
   .whyntp-container p {
     font-size: 20px;
     line-height: 1.1;
+    margin-bottom: 20px;
   }
 
   /* 3 section */
@@ -94,10 +95,7 @@
   }
   .slidercntr {
     height: 70vh;
-    margin-bottom: 100px;
-  }
-  .slidercntr {
-    margin-bottom: 50px;
+    margin-bottom: 250px;
   }
   .caption {
     left: 10%;
@@ -133,6 +131,9 @@
 }
 
 @media (max-width: 860px) {
+  .First-section {
+    background-position: center;
+  }
   .How-we-do h2 {
     font-size: 40px;
     padding: 20px;
@@ -161,7 +162,7 @@
   }
   .section-7 {
     flex-direction: column;
-    margin-top: 150px;
+    margin-top: 100px;
   }
   .FAQ-image-container > div {
     width: 350px;
@@ -452,8 +453,6 @@
     height: 250px;
     overflow: hidden;
   }
-
- 
 }
 @media (max-width: 398px) {
   .Second-section {
@@ -468,8 +467,12 @@
     font-size: 16px;
   }
   .Fourth-section {
-     margin-top:100px;
-     margin-bottom:20px ;
+    margin-top: 100px;
+    margin-bottom: 20px;
+  }
+  .Fourth-section h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
   }
 
   .box1 img {
@@ -489,26 +492,35 @@
     font-size: 15px;
   }
   .FAQ-image-container > div {
-display: none;
+    display: none;
+  }
+  .section-7 {
+    margin-bottom: 300px;
   }
 }
 
 @media (max-width: 360px) {
   .Fourth-section {
-    margin-top:100px;
- }
- .Fourth-section h2 {
-  font-size: 40px;
-  margin-bottom: 10px;
-}
- .box1 img {
-   width: 60px;
-   height: 75px;
-   margin-bottom: 8px;
- }
- .box1 {
-   width: 80px;
-   height: 80px;
-   margin: 20px;
- }
+    margin-top: 100px;
+    height: 500px;
+  }
+  .section-7 {
+    display: none;
+  }
+  .box1 img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 5px;
+  }
+  .box1 {
+    width: 75px;
+    height: 75px;
+  }
+  .box1 h3 {
+    font-size: 13px;
+    margin-bottom: 3px;
+  }
+  .box1 a {
+    font-size: 14px;
+  }
 }
