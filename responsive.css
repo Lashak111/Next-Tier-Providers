@@ -442,8 +442,8 @@
     font-size: 50px;
   }
   .Second-section {
-    margin-top: 350px;
-    margin-bottom: 420px;
+    margin-top: 320px;
+    margin-bottom: 430px;
   }
   .whyntp-container p {
     margin-bottom: 20px;
@@ -465,7 +465,7 @@
 }
 @media (max-width: 398px) {
   .Second-section {
-    margin-top: 450px;
+    margin-top: 400px;
     margin-bottom: 450px;
   }
   .whyntp-container p {
@@ -509,6 +509,10 @@
 }
 
 @media (max-width: 360px) {
+  .Second-section {
+    margin-top: 420px;
+    margin-bottom: 500px;
+  }
   .Fourth-section {
     margin-top: 100px;
     height: 500px;
