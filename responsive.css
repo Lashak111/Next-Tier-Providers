@@ -36,12 +36,12 @@
     position: absolute;
     left: 0;
     right: 0;
-    background-color:rgba(40, 40, 228, 0.801);
+    background-color: rgba(40, 40, 228, 0.801);
     z-index: 1;
   }
   #Navigation-ul ul {
     position: absolute;
-    right:10%;
+    right: 10%;
     top: 15%;
   }
   .menu-btn {
@@ -191,7 +191,7 @@
     margin-right: 10px;
   }
   .footer-center span {
-    font-size: 15px;
+    font-size: 16px;
   }
   .Footer-Logo {
     width: 110px;
@@ -208,7 +208,7 @@
 @media (max-width: 770px) {
   #Navigation-ul ul {
     position: absolute;
-    right:2%;
+    right: 2%;
     top: 15%;
   }
   .Third-image-box > div {
