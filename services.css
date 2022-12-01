@@ -14,7 +14,6 @@ header {
   margin-bottom: 130px;
   display: flex;
   justify-content: space-between;
-  /* background-color: #1c456148; */
 }
 .Logo {
   width: 85px;
@@ -79,7 +78,7 @@ header {
 .test {
   cursor: pointer;
   position: absolute;
-  top: 8%;
+  top: 10%;
   right: 5%;
 }
 

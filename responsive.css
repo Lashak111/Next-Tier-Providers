@@ -22,12 +22,12 @@
   .nav-items {
     display: none;
   }
-
   .nav-list {
     margin-left: 0px;
     display: block;
     text-align: center;
     padding: 15px 0;
+    font-size: 18px;
   }
 
   .nav-ul {
@@ -36,13 +36,16 @@
     position: absolute;
     left: 0;
     right: 0;
-    background-color: rgba(40, 40, 228, 0.801);
+    background-color: rgb(0, 0, 255);
     z-index: 1;
   }
   #Navigation-ul ul {
-    position: absolute;
-    right: 10%;
-    top: 15%;
+    /* position: absolute; */
+    right: 40px;
+    /* top: 15px; */
+  }
+  .dropdown_menu li {
+    font-size: 18px;
   }
   .menu-btn {
     display: block;
@@ -443,13 +446,16 @@
   }
   .Second-section {
     margin-top: 320px;
-    margin-bottom: 430px;
+    margin-bottom: 400px;
   }
   .whyntp-container p {
     margin-bottom: 20px;
     font-size: 18px;
   }
-
+  .BG-image-box > div {
+    width: 260px;
+    height: 240px;
+  }
   .How-we-do h2 {
     margin-bottom: 25px;
   }
