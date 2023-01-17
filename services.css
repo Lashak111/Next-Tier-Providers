@@ -38,7 +38,7 @@ header {
 
 .nav-list {
   /* color: white; */
-  color: #0a84d6;
+  color: white;
   margin-left: 30px;
   font-size: 25px;
 }
@@ -54,7 +54,7 @@ header {
 }
 
 .dropdown_menu a {
-  color: #0a84d6;
+  color: white;
 }
 .dropdown_menu li {
   margin-top: 10px;
