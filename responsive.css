@@ -1,20 +1,6 @@
-@media (max-width: 1247px) {
-  .box1 {
-    width: 280px;
-    height: 250px;
-  }
-}
-
 @media (max-width: 1090px) {
   .Slogan-box {
     left: 35%;
-  }
-  .box1 {
-    width: 250px;
-    height: 250px;
-  }
-  .slidercntr {
-    margin-bottom: 100px;
   }
 }
 
@@ -29,14 +15,13 @@
     padding: 15px 0;
     font-size: 18px;
   }
-
   .nav-ul {
     display: flex;
     flex-direction: column;
     position: absolute;
     left: 0;
     right: 0;
-    background-color: #132251;
+    background-color: blueviolet;
   }
   #Navigation-ul ul {
     right: 40px;
@@ -48,54 +33,11 @@
     display: block;
     z-index: 2;
   }
-  /* 2 section  */
-  .aboutus-container h2 {
-    font-size: 40px;
-  }
-
-  .aboutus-container h4 {
-    font-size: 24px;
-    margin-bottom: 15px;
-  }
-  .aboutus-container p {
-    font-size: 20px;
-  }
-  .BG-image-box > div {
-    width: 300px;
-    height: 300px;
-  }
-
-  .whyntp-container h2 {
-    font-size: 40px;
-  }
-  .whyntp-container p {
-    font-size: 20px;
-    line-height: 1.1;
-    margin-bottom: 20px;
-  }
 
   /* 3 section */
-  .Third-image-box > div {
-    width: 400px;
-    height: 350px;
-    overflow: hidden;
-  }
-
   .How-we-do {
     margin-left: 15px;
     align-items: center;
-  }
-  .How-we-do h2 {
-    font-size: 45px;
-    padding: 20px;
-  }
-  .How-we-do h4 {
-    font-size: 23px;
-  }
-  .How-we-do p {
-    font-size: 22px;
-    line-height: 1.1;
-    padding: 10px;
   }
 
   .accordion-title::before {
@@ -115,47 +57,28 @@
   }
 }
 
-@media (max-width: 950px) {
-  .box1 h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-
-  .box1 {
-    width: 220px;
-    height: 200px;
-  }
-}
-
 @media (max-width: 860px) {
   .First-section {
     background-position: center;
   }
   .How-we-do h2 {
     font-size: 40px;
-    padding: 20px;
   }
   .How-we-do h4 {
     font-size: 20px;
   }
-  .How-we-do p {
-    font-size: 22px;
-    line-height: 1;
-    padding: 5px;
-  }
-
+  /* what we do  */
   .box1 h3 {
     font-size: 16px;
     margin-bottom: 5px;
   }
-
   .box1:hover {
     border: none;
     box-shadow: none;
   }
   .box1 {
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
   }
   .section-7 {
     flex-direction: column;
@@ -205,7 +128,7 @@
     top: 15%;
   }
   .Third-image-box > div {
-    width: 300px;
+    width: 350px;
     height: 250px;
   }
   .How-we-do h2 {
@@ -334,8 +257,8 @@
   .Second-section {
     flex-direction: column;
     padding: 25px;
-    margin-top: 255px;
-    margin-bottom: 350px;
+    margin-top: 150px;
+    margin-bottom: 200px;
   }
   .aboutus-container {
     align-items: center;
@@ -351,7 +274,19 @@
     flex-direction: column-reverse;
   }
   .How-we-do h2 {
-    /* margin-bottom: 20px; */
+    margin-bottom: 20px;
+  }
+  .How-we-do p {
+    color: black;
+    font-size: 21px;
+    line-height: 1.2;
+    max-width: 550px;
+    padding: 15px;
+  }
+  .Third-image-box > div {
+    width: 350px;
+    height: 300px;
+    overflow: hidden;
   }
 }
 @media (max-width: 548px) {
@@ -386,6 +321,14 @@
     line-height: 1.2;
     margin: 8px;
   }
+  .section-7 {
+    flex-direction: column-reverse;
+  }
+  .FAQ-image-container > div {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 50px;
+  }
 }
 
 @media (max-width: 482px) {
@@ -404,11 +347,6 @@
   }
   .box1 a {
     font-size: 14px;
-  }
-  .FAQ-image-container > div {
-    width: 250px;
-    height: 250px;
-    margin-top: 100px;
   }
 }
 @media (max-width: 448px) {
@@ -430,7 +368,6 @@
     width: 260px;
     height: 240px;
   }
-
 }
 @media (max-width: 398px) {
   .Second-section {
@@ -470,11 +407,8 @@
   .box1 a {
     font-size: 15px;
   }
-  .FAQ-image-container > div {
-    display: none;
-  }
   .section-7 {
-    margin-bottom: 300px;
+    margin-bottom: 250px;
   }
 }
 
