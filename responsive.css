@@ -97,14 +97,7 @@
     line-height: 1.1;
     padding: 10px;
   }
-  .slidercntr {
-    height: 70vh;
-    margin-bottom: 250px;
-  }
-  .caption {
-    left: 10%;
-    top: 40%;
-  }
+
   .accordion-title::before {
     font-size: 20px;
     right: 0px;
@@ -231,18 +224,7 @@
     width: 150px;
     height: 150px;
   }
-  .caption {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .caption p {
-    font-size: 25px;
-  }
-  .caption span {
-    font-size: 20px;
-  }
+
   .Logo {
     width: 75px;
     height: 75px;
@@ -301,9 +283,7 @@
     flex-direction: column;
     padding: 20px;
   }
-  .Third-image-box {
-    margin: 10px;
-  }
+
   .sec6-box p {
     font-size: 18px;
     line-height: 1.2;
@@ -316,9 +296,6 @@
   .sec6-box img {
     width: 120px;
     height: 120px;
-  }
-  .slidercntr {
-    display: none;
   }
 }
 
@@ -374,7 +351,7 @@
     flex-direction: column-reverse;
   }
   .How-we-do h2 {
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
   }
 }
 @media (max-width: 548px) {
@@ -453,18 +430,7 @@
     width: 260px;
     height: 240px;
   }
-  .How-we-do h2 {
-    margin-bottom: 25px;
-  }
-  .How-we-do p {
-    font-size: 18px;
-  }
-  .Third-image-box > div {
-    margin-top: 10px;
-    width: 300px;
-    height: 250px;
-    overflow: hidden;
-  }
+
 }
 @media (max-width: 398px) {
   .Second-section {
@@ -477,6 +443,7 @@
   }
   .How-we-do p {
     font-size: 16px;
+    margin-bottom: 10px;
   }
   .Fourth-section {
     margin-top: 100px;

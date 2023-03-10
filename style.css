@@ -129,8 +129,7 @@ body {
   color: white;
   font-weight: bold;
 }
-
-/* 1 section */
+/* scrol  */
 
 .scroll {
   position: fixed;
@@ -149,6 +148,7 @@ body {
   font-size: 25px;
   margin: 0 auto;
 }
+/* 1 section */
 
 .First-section {
   margin: 0 auto;
@@ -431,7 +431,6 @@ body {
 .sec6-box p {
   font-size: 19px;
   line-height: 1.2;
-
 }
 
 .sec6-box h2 {
