@@ -367,10 +367,10 @@
   }
 }
 @media (max-width: 398px) {
-  /* .Second-section {
+  .Second-section {
     margin-top: 400px;
-    margin-bottom: 450px;
-  } */
+    margin-bottom: 400px;
+  }
   .How-we-do p {
     font-size: 16px;
     margin-bottom: 15px;
