@@ -282,7 +282,7 @@
   }
 
   .section6 {
-    margin-top: 5px;
+    margin-top: 15px;
   }
   .sec6-box {
     max-width: 350px;
@@ -334,7 +334,7 @@
   }
   .Second-section {
     margin-top: 200px;
-    margin-bottom: 200px;
+    margin-bottom: 250px;
   }
   
   .BG-image-box > div {
@@ -344,7 +344,7 @@
 }
 @media (max-width: 400px) {
   .Second-section {
-    margin-top: 400px;
+    margin-top: 300px;
     margin-bottom: 450px;
   }
   .How-we-do p {
@@ -378,7 +378,7 @@
   }
   .section-7 {
     margin-top: 250px;
-    margin-bottom: 750px;
+    margin-bottom: 650px;
   }
 }
 
