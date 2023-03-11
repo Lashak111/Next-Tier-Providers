@@ -153,8 +153,6 @@
   .Second-section {
     flex-direction: column;
     padding: 25px;
-    margin-top: 150px;
-    margin-bottom: 200px;
   }
   .aboutus-container {
     align-items: center;
@@ -217,7 +215,6 @@
 }
 
 @media (max-width: 645px) {
-
   .Slogan-box {
     margin-left: 10px;
   }
@@ -225,9 +222,9 @@
     font-size: 60px;
   }
   .Third-section {
-    margin-bottom:250px;
+    margin-bottom: 250px;
   }
-   
+
   .How-we-do h2 {
     margin-bottom: 20px;
   }
@@ -278,7 +275,7 @@
   }
 
   .Fourth-section {
-    margin-bottom: 105px;
+    margin-bottom: 120px;
   }
 
   .section6 {
@@ -333,10 +330,10 @@
     font-size: 50px;
   }
   .Second-section {
-    margin-top: 200px;
+    /* margin-top: 200px; */
     margin-bottom: 250px;
   }
-  
+
   .BG-image-box > div {
     width: 260px;
     height: 240px;
@@ -344,7 +341,7 @@
 }
 @media (max-width: 400px) {
   .Second-section {
-    margin-top: 300px;
+    /* margin-top: 300px; */
     margin-bottom: 450px;
   }
   .How-we-do p {
@@ -383,10 +380,10 @@
 }
 
 @media (max-width: 360px) {
-  .Second-section {
-    margin-top: 420px;
-    margin-bottom: 500px;
-  }
+  /* .Second-section { */
+    /* margin-top: 420px; */
+    /* margin-bottom: 500px; */
+  /* } */
   .Fourth-section {
     margin-top: 100px;
     height: 500px;
