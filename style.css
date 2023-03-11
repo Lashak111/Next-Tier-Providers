@@ -152,7 +152,7 @@ body {
 
 .First-section {
   margin: 0 auto;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
   width: 100%;
   height: 100vh;
   background-size: cover;
@@ -191,8 +191,7 @@ body {
 
 /* second section  */
 .Second-section {
-  /* margin-bottom: 100px; */
-  height: 100vh;
+  height: 70vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -233,8 +232,8 @@ body {
 }
 
 .BG-image-box > div {
-  width: 350px;
-  height: 300px;
+  width: 450px;
+  height: 350px;
   overflow: hidden;
 }
 
@@ -242,49 +241,14 @@ body {
   height: 100%;
   width: auto;
 }
-
-/* why ntp  */
-.whyntp-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 500px;
-  width: 100%;
-  margin-top: 50px;
-}
-.whyntp-container h2 {
-  font-size: 45px;
-}
-.whyntp-container p {
-  font-size: 20px;
-  line-height: 1.2;
-  max-width: 500px;
-  padding: 10px;
-}
-.whyntp-button {
-  border-radius: 40px;
-  border-style: none;
-  margin-top: 10px;
-  font-size: 20px;
-  height: 50px;
-  width: 180px;
-  padding: 8px;
-  color: white;
-  background-color: #4bacec;
-}
-.whyntp-button:hover {
-  background-color: #1f97e7;
-  text-shadow: #c9c1bf;
-}
-
 /* 3 section */
 .Third-section {
-  height: 100vh;
+  height: 70vh;
   display: flex;
   justify-content: space-around;
   padding: 25px;
   align-items: center;
-  margin-bottom: 80px;
+  margin-bottom:100px;
 }
 .Third-image-box {
   display: flex;
@@ -292,7 +256,7 @@ body {
   justify-content: center;
 }
 .Third-image-box > div {
-  width: 400px;
+  width: 450px;
   height: 350px;
   overflow: hidden;
 }
@@ -457,7 +421,7 @@ body {
 }
 .FAQ-image-container > div {
   width: 450px;
-  height: 450px;
+  height: 350px;
   overflow: hidden;
 }
 
