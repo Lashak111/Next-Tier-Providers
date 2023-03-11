@@ -37,8 +37,8 @@ header {
 }
 
 .nav-list {
-  /* color: white; */
-  color: white;
+  
+  color:#1f97e7;
   margin-left: 30px;
   font-size: 25px;
 }
@@ -54,7 +54,7 @@ header {
 }
 
 .dropdown_menu a {
-  color: white;
+  color:#1f97e7;
 }
 .dropdown_menu li {
   margin-top: 10px;
@@ -169,7 +169,7 @@ header {
   max-width: 900px;
 }
 
-/* 
+
 .Section2-services {
   display: flex;
   flex-direction: column;
@@ -220,7 +220,7 @@ header {
   font-style: italic;
   font-size: 21px;
   margin-top: 15px;
-} */
+}
 
 /* footer */
 .footer-distributed {
