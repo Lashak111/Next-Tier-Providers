@@ -198,11 +198,10 @@ header {
 
 /* why ntp  */
 .ntp-section {
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
-  flex-direction: column;
-  padding: 20px;
-  margin-bottom: 500px;
+  padding:30px;
+  margin-bottom: 200px;
 }
 .whyntp-image-div {
   display: flex;
@@ -215,7 +214,7 @@ header {
   font-size: 45px;
 }
 .whyntp-image-div img {
-  max-width: 800px;
+  max-width: 600px;
   width: 100%;
 }
 
@@ -228,6 +227,11 @@ header {
 
 .whyntp-container p {
   margin-bottom: 15px;
+  font-size: 21px;
+  color: #222;
+}
+.whyntp-container p span {
+  font-weight: bold;
 }
 
 /* footer */
