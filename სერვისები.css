@@ -4,6 +4,7 @@ html {
 
 body {
   font-family: "BPG Nino Mtavruli", sans-serif;
+ 
 }
 
 /* header */
@@ -146,6 +147,7 @@ header {
   font-size: 21px;
   line-height: 1.2;
   padding: 10px;
+ 
 }
 
 .audit-box span {
@@ -192,43 +194,6 @@ header {
   transform: translateX(-400%);
 }
 
-/* why ntp  */
-.ntp-section {
-  display: flex;
-  justify-content: space-evenly;
-  padding: 20px;
-  margin-bottom: 200px;
-}
-.whyntp-image-div {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  max-width: 1000px;
-}
-.whyntp-image-div h2 {
-  font-size: 45px;
-  margin-bottom: 15px;
-}
-.whyntp-image-div img {
-  max-width: 600px;
-  width: 100%;
-  height: 55vh;
-}
-
-.whyntp-container {
-  display: flex;
-  flex-direction: column;
-  max-width: 600px;
-}
-
-.whyntp-container p {
-  margin-bottom: 15px;
-  font-size: 18px;
-  color: rgb(8, 8, 8);
-}
-.whyntp-container p span {
-  font-weight: bold;
-}
 
 /* footer */
 .footer-distributed {
