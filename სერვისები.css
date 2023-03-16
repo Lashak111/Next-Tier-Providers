@@ -3,8 +3,7 @@ html {
 }
 
 body {
-  font-family: "Nunito", sans-serif;
- 
+  font-family: "BPG Nino Mtavruli", sans-serif;
 }
 
 /* header */
@@ -12,7 +11,7 @@ body {
 header {
   margin: 0 auto;
   padding: 15px;
-  margin-bottom: 80px;
+  margin-bottom: 110px;
   display: flex;
   justify-content: space-between;
 }
@@ -131,10 +130,6 @@ header {
   display: block !important;
 }
 
-.Language {
-  color: #0a84d6;
-  font-weight: bold;
-}
 
 .audit-box {
   max-width: 1170px;
