@@ -1,9 +1,10 @@
 html {
   scroll-behavior: smooth;
 }
-
+@import url("//cdn.web-fonts.ge/fonts/bpg-banner-extrasquare-caps/css/bpg-banner-extrasquare-caps.min.css");
 body {
-  font-family: "BPG Nino Mtavruli", sans-serif;
+  font-family: "BPG Banner ExtraSquare Caps";
+  
  
 }
 
