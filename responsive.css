@@ -21,10 +21,9 @@
     position: absolute;
     left: 0;
     right: 0;
-    background-color: blueviolet;
   }
   #Navigation-ul ul {
-    right: 40px;
+    right: 130px;
   }
   .dropdown_menu li {
     font-size: 18px;
