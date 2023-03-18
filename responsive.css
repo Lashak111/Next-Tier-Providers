@@ -198,20 +198,6 @@
   .Slogan {
     font-size: 65px;
   }
-/* 
-  .sec6-box p {
-    font-size: 18px;
-    line-height: 1.2;
-    margin: 8px;
-  }
-
-  .sec6-box h2 {
-    font-size: 48px;
-  }
-  .sec6-box img {
-    width: 120px;
-    height: 120px;
-  } */
 }
 
 @media (max-width: 645px) {
@@ -297,6 +283,7 @@
   }
   .section-7 {
     flex-direction: column-reverse;
+    margin-bottom: 500px;
   }
   .FAQ-image-container > div {
     width: 250px;
