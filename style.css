@@ -193,7 +193,7 @@ body {
 /* second section  */
 
 .Second-section {
-  height: 70vh;
+  height:100vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -249,7 +249,7 @@ body {
 }
 /* 3 section */
 .Third-section {
-  height: 70vh;
+  height: 100vh;
   display: flex;
   justify-content: space-around;
   padding: 25px;

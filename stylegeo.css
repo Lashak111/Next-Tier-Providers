@@ -2,9 +2,9 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+/* body {
   font-family: "BPG Banner ExtraSquare Caps", sans-serif;
-}
+} */
 /* header */
 .Header {
   width: 100%;
@@ -194,7 +194,7 @@ body {
 
 /* second section  */
 .Second-section {
-  height: 80vh;
+  height: 100vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -250,7 +250,7 @@ body {
 
 /* 3 section */
 .Third-section {
-  height: 80vh;
+  height: 100vh;
   display: flex;
   justify-content: space-around;
   padding: 25px;
