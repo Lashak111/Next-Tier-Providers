@@ -1,12 +1,6 @@
 html {
   scroll-behavior: smooth;
 }
-@import url("//cdn.web-fonts.ge/fonts/bpg-banner-extrasquare-caps/css/bpg-banner-extrasquare-caps.min.css");
-body {
-  font-family: "BPG Banner ExtraSquare Caps";
-  
- 
-}
 
 /* header */
 
@@ -132,7 +126,6 @@ header {
   display: block !important;
 }
 
-
 .audit-box {
   max-width: 1170px;
   width: 100%;
@@ -148,7 +141,6 @@ header {
   font-size: 21px;
   line-height: 1.2;
   padding: 10px;
- 
 }
 
 .audit-box span {
@@ -194,7 +186,6 @@ header {
 .sec2-box:nth-of-type(even) {
   transform: translateX(-400%);
 }
-
 
 /* footer */
 .footer-distributed {

@@ -2,6 +2,9 @@
   .Slogan-box {
     left: 35%;
   }
+  .section6 {
+    margin-top: 350px;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -43,7 +46,7 @@
     right: 0px;
   }
   .acordion-box.active .accordion-title::before {
-    font-size: 18px;
+    font-size: 16px;
     right: 0px;
   }
   .accordion-content {
@@ -85,12 +88,13 @@
     height: 200px;
   }
   .section-7 {
-    flex-direction: column;
-    margin-top: 100px;
+   flex-direction: column;
+    margin-top: 250px;
   }
   .FAQ-image-container > div {
     width: 350px;
     height: 350px;
+    margin-top: 150px;
   }
   /* footer responsive  */
   .footer-right h3 {
@@ -152,6 +156,8 @@
   .Second-section {
     flex-direction: column;
     padding: 25px;
+    margin-top: 100px;
+    margin-bottom: 150px;
   }
   .aboutus-container {
     align-items: center;
@@ -178,8 +184,11 @@
   /* 3 section */
   .Third-section {
     flex-direction: column-reverse;
+    margin-top: 10px;
   }
-
+   .Third-image-box > div {
+    margin-top: 50px;
+   }
   .box1:hover {
     box-shadow: none;
   }
