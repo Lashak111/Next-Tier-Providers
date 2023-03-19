@@ -26,10 +26,11 @@
     right: 0;
   }
   #Navigation-ul ul {
-    right: 130px;
+    right: 230px;
   }
   .dropdown_menu li {
     font-size: 18px;
+    margin-top: 5px;
   }
   .menu-btn {
     display: block;
@@ -370,8 +371,8 @@
     font-size: 15px;
   }
   .section-7 {
-    margin-top: 250px;
-    margin-bottom: 500px;
+    margin-top: 200px;
+    margin-bottom: 800px;
   }
 }
 
