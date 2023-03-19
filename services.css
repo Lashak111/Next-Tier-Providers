@@ -201,16 +201,17 @@ header {
 
 /* why ntp  */
 .ntp-section {
-  display: flex;
-  justify-content: space-evenly;
   padding: 20px;
   margin-bottom: 200px;
+  align-items: center;
 }
 .whyntp-image-div {
   display: flex;
   flex-direction: column;
   text-align: center;
+  align-items: center;
   max-width: 1000px;
+  margin: 0 auto;
 }
 .whyntp-image-div h2 {
   font-size: 45px;
