@@ -202,7 +202,7 @@ body {
 }
 .integrator {
  color:#1f97e7;
- text-decoration: underline;
+ /* text-decoration: underline; */
 }
 .integrator span {
   color: #151616;
