@@ -201,7 +201,9 @@ body {
   padding: 15px;
 }
 .integrator {
-  color: #39a6f0;
+ color: #191919;
+ text-decoration: underline;
+  padding: 5px;
 }
 .aboutus-container {
   max-width: 500px;
