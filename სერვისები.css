@@ -151,7 +151,7 @@ header {
 }
 
 .Auditspn {
-  font-style: italic;
+  /* font-style: italic; */
   font-size: 21px;
   margin-top: 15px;
   max-width: 900px;
