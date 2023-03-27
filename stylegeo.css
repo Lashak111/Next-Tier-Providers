@@ -130,6 +130,7 @@ body {
   color: white;
   font-weight: bold;
   font-size: 21px;
+  font-family: "Nunito", sans-serif;
 }
 /* scrol  */
 
@@ -171,8 +172,8 @@ body {
 }
 .Slogan {
   color: white;
-  font-size: 75px;
-  line-height: 1.2;
+  font-size: 85px;
+  font-family: "Nunito", sans-serif;
 }
 
 .Our-Services {
